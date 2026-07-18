@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Olist E-Commerce — MongoDB Dashboard</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap');
+:root{--bg:#0d1117;--surface:#161b22;--surface2:#21262d;--border:rgba(255,255,255,0.08);--accent:#2ea043;--accent2:#58a6ff;--accent3:#d2a8ff;--yellow:#e3b341;--red:#f85149;--text:#e6edf3;--muted:#8b949e;--glow:rgba(46,160,67,0.15)}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--text);font-family:'Plus Jakarta Sans',sans-serif;min-height:100vh}
+body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(rgba(88,166,255,0.02) 1px,transparent 1px),linear-gradient(90deg,rgba(88,166,255,0.02) 1px,transparent 1px);background-size:32px 32px;pointer-events:none;z-index:0}
+.wrapper{position:relative;z-index:1;max-width:1200px;margin:0 auto;padding:0 20px 60px}
+header{padding:36px 0 28px;border-bottom:1px solid var(--border);margin-bottom:28px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}
+.logo{display:flex;align-items:center;gap:14px}
+.logo-icon{width:48px;height:48px;border-radius:12px;background:linear-gradient(135deg,#2ea043,#56d364);display:grid;place-items:center;font-size:22px;box-shadow:0 0 24px var(--glow)}
+.logo h1{font-size:18px;font-weight:800;letter-spacing:-.3px}
+.logo p{font-size:11px;color:var(--muted);font-family:'Space Mono',monospace;margin-top:2px}
+.source-badge{padding:5px 12px;border-radius:20px;background:rgba(88,166,255,0.1);border:1px solid rgba(88,166,255,0.25);color:var(--accent2);font-size:11px;font-weight:600}
+.stats-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;margin-bottom:28px}
+.stat{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:18px 20px;position:relative;overflow:hidden;transition:transform .2s}
+.stat:hover{transform:translateY(-2px)}
+.stat::after{content:'';position:absolute;top:0;left:0;right:0;height:2px}
+.stat.g::after{background:linear-gradient(90deg,var(--accent),transparent)}
+.stat.b::after{background:linear-gradient(90deg,var(--accent2),transparent)}
+.stat.p::after{background:linear-gradient(90deg,var(--accent3),transparent)}
+.stat.y::after{background:linear-gradient(90deg,var(--yellow),transparent)}
+.stat.r::after{background:linear-gradient(90deg,var(--red),transparent)}
+.stat-label{font-size:11px;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:.7px;margin-bottom:6px}
+.stat-val{font-size:26px;font-weight:800;font-family:'Space Mono',monospace;letter-spacing:-1px}
+.stat-val.g{color:var(--accent)}.stat-val.b{color:var(--accent2)}.stat-val.p{color:var(--accent3)}.stat-val.y{color:var(--yellow)}.stat-val.r{color:var(--red)}
+.stat-sub{font-size:11px;color:var(--muted);margin-top:4px}
+.stat-icon{position:absolute;right:16px;top:50%;transform:translateY(-50%);font-size:32px;opacity:.07}
+.sec{font-size:13px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:1px;margin:28px 0 14px;padding-bottom:10px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:8px}
+.sec span{width:6px;height:6px;border-radius:50%;background:var(--accent);display:inline-block}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(460px,1fr));gap:16px;margin-bottom:16px}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:20px}
+.card.wide{grid-column:1/-1}
+.card-title{font-size:13px;font-weight:700;margin-bottom:2px}
+.card-sub{font-size:11px;color:var(--muted);margin-bottom:16px}
+.chart-wrap{position:relative;height:240px}
+table{width:100%;border-collapse:collapse}
+th{background:var(--surface2);padding:10px 14px;font-size:11px;text-transform:uppercase;letter-spacing:.7px;color:var(--muted);font-weight:600;text-align:left}
+td{padding:10px 14px;font-size:12px;border-bottom:1px solid var(--border)}
+tr:last-child td{border-bottom:none}
+tr:hover td{background:rgba(255,255,255,.02)}
+.tag{display:inline-block;padding:2px 8px;border-radius:20px;font-size:10px;font-weight:700}
+.tg{background:rgba(46,160,67,.12);color:var(--accent)}
+.tb{background:rgba(88,166,255,.12);color:var(--accent2)}
+.tp{background:rgba(210,168,255,.12);color:var(--accent3)}
+.ty{background:rgba(227,179,65,.12);color:var(--yellow)}
+.tr_{background:rgba(248,81,73,.12);color:var(--red)}
+.mono{font-family:'Space Mono',monospace;font-size:11px}
+.bar-wrap{display:flex;align-items:center;gap:8px}
+.mini{height:5px;border-radius:3px;background:var(--accent2);opacity:.7}
+.insight-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin-bottom:28px}
+.ins{background:var(--surface2);border:1px solid var(--border);border-radius:14px;padding:18px}
+.ins-num{font-size:10px;color:var(--accent);font-family:'Space Mono',monospace;font-weight:700;margin-bottom:6px}
+.ins-title{font-size:13px;font-weight:700;margin-bottom:6px}
+.ins-body{font-size:12px;color:var(--muted);line-height:1.6}
+footer{border-top:1px solid var(--border);padding-top:20px;display:flex;justify-content:space-between;font-size:11px;color:var(--muted);flex-wrap:wrap;gap:8px}
+@media(max-width:660px){.grid2{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="wrapper">
+
+<header>
+  <div class="logo">
+    <div class="logo-icon">🛒</div>
+    <div>
+      <h1>Olist Brazilian E-Commerce</h1>
+      <p>MongoDB Analytics · olist_marketplace</p>
+    </div>
+  </div>
+  <div class="source-badge">📦 Kaggle Public Dataset</div>
+</header>
+
+<!-- KPI -->
+<div class="stats-grid">
+  <div class="stat g"><div class="stat-label">Total Revenue</div><div class="stat-val g">R$19,4K</div><div class="stat-sub">100 sample orders</div><div class="stat-icon">💰</div></div>
+  <div class="stat b"><div class="stat-label">Total Orders</div><div class="stat-val b">100</div><div class="stat-sub">98 delivered · 2 lainnya</div><div class="stat-icon">📦</div></div>
+  <div class="stat p"><div class="stat-label">Total Customers</div><div class="stat-val p">100</div><div class="stat-sub">10 state Brasil</div><div class="stat-icon">👤</div></div>
+  <div class="stat y"><div class="stat-label">Avg. Review</div><div class="stat-val y">4.18</div><div class="stat-sub">dari 100 ulasan</div><div class="stat-icon">⭐</div></div>
+  <div class="stat r"><div class="stat-label">Avg Order Value</div><div class="stat-val r">R$194</div><div class="stat-sub">per transaksi</div><div class="stat-icon">📊</div></div>
+</div>
+
+<!-- SECTION 1 -->
+<div class="sec"><span></span>Insight 1 — Kategori Produk & Pembayaran</div>
+<div class="grid2">
+  <div class="card">
+    <div class="card-title">Top Kategori Produk</div>
+    <div class="card-sub">Jumlah produk per kategori (data nyata Olist)</div>
+    <div class="chart-wrap"><canvas id="catChart"></canvas></div>
+  </div>
+  <div class="card">
+    <div class="card-title">Distribusi Metode Pembayaran</div>
+    <div class="card-sub">Insight 2 — Preferensi pembayaran pelanggan Olist</div>
+    <div class="chart-wrap"><canvas id="payChart"></canvas></div>
+  </div>
+</div>
+
+<!-- SECTION 2 -->
+<div class="sec"><span></span>Insight 2 — Wilayah Customer & Seller</div>
+<div class="grid2">
+  <div class="card">
+    <div class="card-title">Customer per State (Brazil)</div>
+    <div class="card-sub">Insight 3 — São Paulo dominan sebagai pusat e-commerce</div>
+    <div class="chart-wrap"><canvas id="custStateChart"></canvas></div>
+  </div>
+  <div class="card">
+    <div class="card-title">Seller per State (Brazil)</div>
+    <div class="card-sub">Insight 3 — Konsentrasi seller di wilayah Selatan-Tenggara</div>
+    <div class="chart-wrap"><canvas id="selStateChart"></canvas></div>
+  </div>
+</div>
+
+<!-- SECTION 3 -->
+<div class="sec"><span></span>Insight 4 & 5 — Review & Status Order</div>
+<div class="grid2">
+  <div class="card">
+    <div class="card-title">Distribusi Skor Review</div>
+    <div class="card-sub">Insight 4 — 82% pembeli memberi rating 4–5 bintang</div>
+    <div class="chart-wrap"><canvas id="reviewChart"></canvas></div>
+  </div>
+  <div class="card">
+    <div class="card-title">Status Order</div>
+    <div class="card-sub">Insight 5 — 98% order berhasil dikirim (delivered)</div>
+    <div class="chart-wrap"><canvas id="statusChart"></canvas></div>
+  </div>
+</div>
+
+<!-- Table -->
+<div class="sec"><span></span>Detail Analisis</div>
+<div class="grid2">
+  <div class="card">
+    <div class="card-title">💳 Nilai Transaksi per Metode Pembayaran</div>
+    <div class="card-sub">Aggregation: $group by payment_type, $sum total_value</div>
+    <table>
+      <thead><tr><th>Metode</th><th>Transaksi</th><th>Total Nilai</th><th>%</th></tr></thead>
+      <tbody>
+        <tr><td><span class="tag tb">credit_card</span></td><td>82</td><td class="mono">R$16,076.84</td><td><div class="bar-wrap"><div class="mini" style="width:82px"></div>82%</div></td></tr>
+        <tr><td><span class="tag ty">boleto</span></td><td>14</td><td class="mono">R$1,824.99</td><td><div class="bar-wrap"><div class="mini" style="width:14px;background:#e3b341"></div>14%</div></td></tr>
+        <tr><td><span class="tag tp">debit_card</span></td><td>3</td><td class="mono">R$1,399.90</td><td><div class="bar-wrap"><div class="mini" style="width:3px;background:#d2a8ff"></div>3%</div></td></tr>
+        <tr><td><span class="tag tg">voucher</span></td><td>2</td><td class="mono">R$581.55</td><td><div class="bar-wrap"><div class="mini" style="width:2px"></div>2%</div></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="card">
+    <div class="card-title">🏆 Top Kategori Produk (Qty)</div>
+    <div class="card-sub">Aggregation: $group by category_en, $sum count</div>
+    <table>
+      <thead><tr><th>#</th><th>Kategori</th><th>Produk</th></tr></thead>
+      <tbody>
+        <tr><td>1</td><td>computers_accessories</td><td><div class="bar-wrap"><div class="mini" style="width:55px"></div>11</div></td></tr>
+        <tr><td>2</td><td>housewares</td><td><div class="bar-wrap"><div class="mini" style="width:55px"></div>11</div></td></tr>
+        <tr><td>3</td><td>toys</td><td><div class="bar-wrap"><div class="mini" style="width:35px"></div>7</div></td></tr>
+        <tr><td>4</td><td>health_beauty</td><td><div class="bar-wrap"><div class="mini" style="width:35px"></div>7</div></td></tr>
+        <tr><td>5</td><td>auto</td><td><div class="bar-wrap"><div class="mini" style="width:35px"></div>7</div></td></tr>
+        <tr><td>6</td><td>furniture_decor</td><td><div class="bar-wrap"><div class="mini" style="width:30px"></div>6</div></td></tr>
+        <tr><td>7</td><td>sports_leisure</td><td><div class="bar-wrap"><div class="mini" style="width:30px"></div>6</div></td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<!-- Insights -->
+<div class="sec"><span></span>Ringkasan Insight</div>
+<div class="insight-grid">
+  <div class="ins"><div class="ins-num">INSIGHT 01</div><div class="ins-title">Computers & Housewares Terpopuler</div><div class="ins-body">Dari 100 produk, kategori computers_accessories dan housewares masing-masing memiliki 11 produk — tertinggi. Mencerminkan kebutuhan digital dan rumah tangga yang tinggi di Brazil.</div></div>
+  <div class="ins"><div class="ins-num">INSIGHT 02</div><div class="ins-title">Credit Card Mendominasi (82%)</div><div class="ins-body">82 dari 100 transaksi menggunakan kartu kredit dengan total R$16.076. Boleto (semacam slip pembayaran Brasil) menjadi alternatif kedua (14%). Dompet digital hampir tidak digunakan.</div></div>
+  <div class="ins"><div class="ins-num">INSIGHT 03</div><div class="ins-title">São Paulo = Pusat E-Commerce</div><div class="ins-body">State SP mendominasi baik dari sisi customer (37%) maupun seller (51%). Ini konsisten dengan posisi São Paulo sebagai pusat ekonomi dan logistik terbesar Brazil.</div></div>
+  <div class="ins"><div class="ins-num">INSIGHT 04</div><div class="ins-title">82% Review Positif (4–5 bintang)</div><div class="ins-body">61 review bintang 5 dan 21 review bintang 4 dari 100 ulasan — menunjukkan kepuasan pelanggan yang sangat tinggi. Rata-rata 4.18/5 mengindikasikan kualitas platform yang baik.</div></div>
+  <div class="ins"><div class="ins-num">INSIGHT 05</div><div class="ins-title">98% Order Berhasil Dikirim</div><div class="ins-body">Dari 100 order, 98 berstatus "delivered". Hanya 2 yang bermasalah (1 processing, 1 unavailable). Tingkat keberhasilan pengiriman Olist sangat tinggi berkat ekosistem logistik yang matang.</div></div>
+</div>
+
+<footer>
+  <div>Olist Brazilian E-Commerce · MongoDB Analytics Dashboard · Dataset: Kaggle Public</div>
+  <span>db: olist_marketplace · 5 collections · 500 docs</span>
+</footer>
+</div>
+
+<script>
+const G='rgba(46,160,67',B='rgba(88,166,255',P='rgba(210,168,255',Y='rgba(227,179,65',R='rgba(248,81,73';
+const gc='rgba(255,255,255,0.05)';
+Chart.defaults.color='#8b949e';
+Chart.defaults.font.family="'Plus Jakarta Sans',sans-serif";
+
+// 1. Category chart
+new Chart(document.getElementById('catChart'),{
+  type:'bar',
+  data:{
+    labels:['computers\naccessories','housewares','toys','health\nbeauty','auto','furniture\ndecor','sports\nleisure','watches\ngifts'],
+    datasets:[{label:'Jumlah Produk',data:[11,11,7,7,7,6,6,5],
+      backgroundColor:[`${B},0.8)`,`${G},0.8)`,`${Y},0.8)`,`${P},0.8)`,`${R},0.8)`,`${B},0.6)`,`${G},0.6)`,`${Y},0.6)`],
+      borderRadius:5,borderSkipped:false}]
+  },
+  options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},
+    scales:{x:{grid:{color:gc},ticks:{font:{size:10}}},y:{grid:{color:gc},ticks:{stepSize:2}}}}
+});
+
+// 2. Payment donut
+new Chart(document.getElementById('payChart'),{
+  type:'doughnut',
+  data:{
+    labels:['credit_card (82%)','boleto (14%)','debit_card (3%)','voucher (2%)'],
+    datasets:[{data:[82,14,3,2],
+      backgroundColor:[`${B},0.85)`,`${Y},0.85)`,`${P},0.85)`,`${G},0.85)`],
+      borderColor:'#161b22',borderWidth:3,hoverOffset:8}]
+  },
+  options:{responsive:true,maintainAspectRatio:false,cutout:'65%',
+    plugins:{legend:{position:'right',labels:{padding:14,font:{size:11},boxWidth:12}}}}
+});
+
+// 3. Customer by state
+new Chart(document.getElementById('custStateChart'),{
+  type:'bar',
+  data:{
+    labels:['SP','RJ','RS','MG','SC','PR','BA','GO','ES','Lainnya'],
+    datasets:[{label:'Customers',data:[37,13,10,9,6,5,5,4,3,8],
+      backgroundColor:`${B},0.75)`,borderColor:`${B},1)`,borderWidth:1.5,borderRadius:5,borderSkipped:false}]
+  },
+  options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},
+    scales:{x:{grid:{color:gc}},y:{grid:{color:gc}}}}
+});
+
+// 4. Seller by state
+new Chart(document.getElementById('selStateChart'),{
+  type:'bar',
+  data:{
+    labels:['SP','PR','RS','SC','MG','RJ','GO','PE','BA','Lainnya'],
+    datasets:[{label:'Sellers',data:[51,13,8,8,6,4,3,2,2,3],
+      backgroundColor:`${G},0.75)`,borderColor:`${G},1)`,borderWidth:1.5,borderRadius:5,borderSkipped:false}]
+  },
+  options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},
+    scales:{x:{grid:{color:gc}},y:{grid:{color:gc}}}}
+});
+
+// 5. Review scores
+new Chart(document.getElementById('reviewChart'),{
+  type:'bar',
+  data:{
+    labels:['⭐ 1','⭐⭐ 2','⭐⭐⭐ 3','⭐⭐⭐⭐ 4','⭐⭐⭐⭐⭐ 5'],
+    datasets:[{label:'Jumlah Review',data:[11,3,4,21,61],
+      backgroundColor:[`${R},0.8)`,`${Y},0.6)`,`${Y},0.8)`,`${B},0.8)`,`${G},0.85)`],
+      borderRadius:6,borderSkipped:false}]
+  },
+  options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},
+    scales:{x:{grid:{color:gc}},y:{grid:{color:gc},ticks:{stepSize:10}}}}
+});
+
+// 6. Order status donut
+new Chart(document.getElementById('statusChart'),{
+  type:'doughnut',
+  data:{
+    labels:['delivered (98%)','processing (1%)','unavailable (1%)'],
+    datasets:[{data:[98,1,1],
+      backgroundColor:[`${G},0.85)`,`${Y},0.85)`,`${R},0.85)`],
+      borderColor:'#161b22',borderWidth:3,hoverOffset:8}]
+  },
+  options:{responsive:true,maintainAspectRatio:false,cutout:'62%',
+    plugins:{legend:{position:'right',labels:{padding:14,font:{size:11},boxWidth:12}}}}
+});
+</script>
+</body>
+</html>

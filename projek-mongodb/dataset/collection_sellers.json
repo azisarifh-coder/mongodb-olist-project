@@ -1,0 +1,602 @@
+[
+  {
+    "_id": "1f7fd2a6fcd5a6fa5d8a4dabc72aaae0",
+    "zip_code": "95800",
+    "city": "venancio aires",
+    "state": "RS"
+  },
+  {
+    "_id": "6e1862e15f33d9994bc25922a85e1efc",
+    "zip_code": "13505",
+    "city": "rio claro",
+    "state": "SP"
+  },
+  {
+    "_id": "e628d4a53c109f09ca88098338b3a3f5",
+    "zip_code": "30170",
+    "city": "belo horizonte",
+    "state": "MG"
+  },
+  {
+    "_id": "0249d282d911d23cb8b869ab49c99f53",
+    "zip_code": "5676",
+    "city": "sao paulo",
+    "state": "SP"
+  },
+  {
+    "_id": "bdae679a9b282249bc23b9b69dae9a99",
+    "zip_code": "72210",
+    "city": "brasilia",
+    "state": "DF"
+  },
+  {
+    "_id": "58e4b302b54937e55a678c4d15111da4",
+    "zip_code": "83402",
+    "city": "colombo",
+    "state": "PR"
+  },
+  {
+    "_id": "c3e1abd72a42fe690fcd89cf5720fe29",
+    "zip_code": "13840",
+    "city": "mogi guacu",
+    "state": "SP"
+  },
+  {
+    "_id": "aaed1309374718fdd995ee4c58c9dfcd",
+    "zip_code": "89120",
+    "city": "timbo",
+    "state": "SC"
+  },
+  {
+    "_id": "33dd941c27854f7625b968cc6195a552",
+    "zip_code": "29107",
+    "city": "vila velha",
+    "state": "ES"
+  },
+  {
+    "_id": "1d953075c2f0dd990bacf27b83b330f1",
+    "zip_code": "30421",
+    "city": "belo horizonte",
+    "state": "MG"
+  },
+  {
+    "_id": "9803a40e82e45418ab7fb84091af5231",
+    "zip_code": "75901",
+    "city": "rio verde",
+    "state": "GO"
+  },
+  {
+    "_id": "88ae906ea2acf6971f26c3e8b7cb4357",
+    "zip_code": "1550",
+    "city": "sao paulo",
+    "state": "SP"
+  },
+  {
+    "_id": "39d61be7a92eb77b7da367bd4845bc0e",
+    "zip_code": "13420",
+    "city": "sao paulo",
+    "state": "SP"
+  },
+  {
+    "_id": "6b1c4d4d9ccf0be3d8544eb0e71e5318",
+    "zip_code": "91130",
+    "city": "porto alegre",
+    "state": "RS"
+  },
+  {
+    "_id": "422be4cc81a457fdb46f47edeb968ae5",
+    "zip_code": "14940",
+    "city": "ibitinga",
+    "state": "SP"
+  },
+  {
+    "_id": "5b97c06a046398e7005b2b7c0d707a92",
+    "zip_code": "38770",
+    "city": "joao pinheiro",
+    "state": "MG"
+  },
+  {
+    "_id": "e4253cef933647000a82ff39c67b7bde",
+    "zip_code": "5856",
+    "city": "sao paulo",
+    "state": "SP"
+  },
+  {
+    "_id": "7586919161935337bf6b6d7ff5779648",
+    "zip_code": "21921",
+    "city": "rio de janeiro",
+    "state": "RJ"
+  },
+  {
+    "_id": "c33a5c3c983090c8b78a28e65052a20d",
+    "zip_code": "88802",
+    "city": "criciuma",
+    "state": "SC"
+  },
+  {
+    "_id": "71271995e85f5b8530be99ed54a91b89",
+    "zip_code": "91360",
+    "city": "porto alegre",
+    "state": "RS"
+  },
+  {
+    "_id": "50c361bcf670d16f6df4d52de3dff924",
+    "zip_code": "4131",
+    "city": "sao paulo",
+    "state": "SP"
+  },
+  {
+    "_id": "5a8e7d5003a1f221f9e1d6e411de7c23",
+    "zip_code": "13076",
+    "city": "campinas",
+    "state": "SP"
+  },
+  {
+    "_id": "48162d548f5b1b11b9d29d1e01f75a61",
+    "zip_code": "13403",
+    "city": "piracicaba",
+    "state": "SP"
+  },
+  {
+    "_id": "7daca0837f033a41a6f3428c18657533",
+    "zip_code": "15170",
+    "city": "tanabi",
+    "state": "SP"
+  },
+  {
+    "_id": "80ceebb4ee9b31afb6c6a916a574a1e2",
+    "zip_code": "86026",
+    "city": "londrina",
+    "state": "PR"
+  },
+  {
+    "_id": "270d3ef21830ad0ecf3a6c53d08a533a",
+    "zip_code": "6380",
+    "city": "carapicuiba",
+    "state": "SP"
+  },
+  {
+    "_id": "700f03c207639c22d933381ff60b35c2",
+    "zip_code": "14784",
+    "city": "barretos",
+    "state": "SP"
+  },
+  {
+    "_id": "818d28f936e791926d33bcb6ee94ef79",
+    "zip_code": "4141",
+    "city": "sao paulo",
+    "state": "SP"
+  },
+  {
+    "_id": "fe87f472055fbcf1d7e691c00b1560dc",
+    "zip_code": "13085",
+    "city": "campinas",
+    "state": "SP"
+  },
+  {
+    "_id": "b8578d2d823bd8e251f6fdd02b40902d",
+    "zip_code": "89069",
+    "city": "blumenau",
+    "state": "SC"
+  },
+  {
+    "_id": "ffc470761de7d0232558ba5e786e57b7",
+    "zip_code": "7091",
+    "city": "guarulhos",
+    "state": "SP"
+  },
+  {
+    "_id": "54219883e72aad869adfb2a54b7bfa0f",
+    "zip_code": "18060",
+    "city": "sorocaba",
+    "state": "SP"
+  },
+  {
+    "_id": "62de60d81c55c29d76a6bce418b31cef",
+    "zip_code": "14940",
+    "city": "ibitinga",
+    "state": "SP"
+  },
+  {
+    "_id": "7dc8c42cc750eeafea6c85712ffee9bf",
+    "zip_code": "5424",
+    "city": "sao paulo",
+    "state": "SP"
+  },
+  {
+    "_id": "f12d3c2a14729ae461b920c11fe20fdc",
+    "zip_code": "9080",
+    "city": "santo andre",
+    "state": "SP"
+  },
+  {
+    "_id": "2d8cfba3fcd3170555941605edaa196a",
+    "zip_code": "6080",
+    "city": "osasco",
+    "state": "SP"
+  },
+  {
+    "_id": "bc302730ea8cf49b5c74f579febb5bbf",
+    "zip_code": "13015",
+    "city": "campinas",
+    "state": "SP"
+  },
+  {
+    "_id": "d8d9567d0bfb0bc7eb845a205ba42657",
+    "zip_code": "3688",
+    "city": "sao paulo",
+    "state": "SP"
+  },
+  {
+    "_id": "b026643914f651e8371425e5b8a1e780",
+    "zip_code": "22783",
+    "city": "rio de janeiro",
+    "state": "RJ"
+  },
+  {
+    "_id": "28872dc528e978a639754bc8c2ce5a4c",
+    "zip_code": "95070",
+    "city": "caxias do sul",
+    "state": "RS"
+  },
+  {
+    "_id": "4aba391bc3b88717ce08eb11e44937b2",
+    "zip_code": "45816",
+    "city": "arraial d'ajuda (porto seguro)",
+    "state": "BA"
+  },
+  {
+    "_id": "0aa2205ca24f113f4658a5c536667426",
+    "zip_code": "4281",
+    "city": "sao paulo",
+    "state": "SP"
+  },
+  {
+    "_id": "6b3bd31ad8fcda4b2635ec9f3ff2ecdf",
+    "zip_code": "22775",
+    "city": "rio de janeiro",
+    "state": "RJ"
+  },
+  {
+    "_id": "640e21a7d01df7614a3b4923e990d40c",
+    "zip_code": "14940",
+    "city": "ibitinga",
+    "state": "SP"
+  },
+  {
+    "_id": "f0837c8d71434931d9e38e7b79234797",
+    "zip_code": "95995",
+    "city": "arvorezinha",
+    "state": "RS"
+  },
+  {
+    "_id": "28fb0829fd777877cdc350d25cb5bd5b",
+    "zip_code": "15051",
+    "city": "sao jose do rio pret",
+    "state": "SP"
+  },
+  {
+    "_id": "71593c7413973a1e160057b80d4958f6",
+    "zip_code": "3407",
+    "city": "sao paulo / sao paulo",
+    "state": "SP"
+  },
+  {
+    "_id": "61f159ef6da2d441951d2c0efa719362",
+    "zip_code": "29160",
+    "city": "serra",
+    "state": "ES"
+  },
+  {
+    "_id": "0725b8c0f3f906e58f70cbe76b7c748c",
+    "zip_code": "7023",
+    "city": "guarulhos",
+    "state": "SP"
+  },
+  {
+    "_id": "c840d3fdbba0790404fdae73d253b253",
+    "zip_code": "81530",
+    "city": "curitiba",
+    "state": "PR"
+  },
+  {
+    "_id": "68f86ba270525243e68ae74044f992b9",
+    "zip_code": "21941",
+    "city": "rio de janeiro",
+    "state": "RJ"
+  },
+  {
+    "_id": "dd8a29ce82d5c705ba932d81494600a5",
+    "zip_code": "8220",
+    "city": "sao paulo",
+    "state": "SP"
+  },
+  {
+    "_id": "c9a06ece156bb057372c68718ec8909b",
+    "zip_code": "73020",
+    "city": "brasilia",
+    "state": "DF"
+  },
+  {
+    "_id": "8e4f041ff58e7845456d3482524014b3",
+    "zip_code": "90250",
+    "city": "porto alegre",
+    "state": "RS"
+  },
+  {
+    "_id": "6973a06f484aacf400ece213dbf3d946",
+    "zip_code": "12230",
+    "city": "sao jose dos campos",
+    "state": "SP"
+  },
+  {
+    "_id": "6806dad1da97bfb5a9038eac6881f706",
+    "zip_code": "83280",
+    "city": "guaratuba",
+    "state": "PR"
+  },
+  {
+    "_id": "8ae520247981aa06bc94abddf5f46d34",
+    "zip_code": "88370",
+    "city": "navegantes",
+    "state": "SC"
+  },
+  {
+    "_id": "002100f778ceb8431b7a1020ff7ab48f",
+    "zip_code": "14405",
+    "city": "franca",
+    "state": "SP"
+  },
+  {
+    "_id": "59de1d4c8c057c2a53acd4ca66531af2",
+    "zip_code": "80215",
+    "city": "curitiba",
+    "state": "PR"
+  },
+  {
+    "_id": "661ad5fcc28cdfb8bcadb12bb2272475",
+    "zip_code": "88330",
+    "city": "balneario camboriu",
+    "state": "SC"
+  },
+  {
+    "_id": "822bad9bc42b51213ba522fe87b7ab5d",
+    "zip_code": "88330",
+    "city": "balneario camboriu",
+    "state": "SC"
+  },
+  {
+    "_id": "b6f52e346160519c24a23af05410ad32",
+    "zip_code": "1254",
+    "city": "sao paulo",
+    "state": "SP"
+  },
+  {
+    "_id": "9da1ca0bef29ee170e541927a5aeabdc",
+    "zip_code": "15500",
+    "city": "votuporanga",
+    "state": "SP"
+  },
+  {
+    "_id": "081acf3de680d554796c9cf041be7bc2",
+    "zip_code": "33200",
+    "city": "vespasiano",
+    "state": "MG"
+  },
+  {
+    "_id": "8648b1e89e9b349e32d3741b30ec737e",
+    "zip_code": "12308",
+    "city": "jacarei",
+    "state": "SP"
+  },
+  {
+    "_id": "c7246702dc991a06d788120dc7544391",
+    "zip_code": "60440",
+    "city": "fortaleza",
+    "state": "CE"
+  },
+  {
+    "_id": "4bde6149c15cf7e177b36fa060dd6de8",
+    "zip_code": "99500",
+    "city": "carazinho",
+    "state": "RS"
+  },
+  {
+    "_id": "da4d149c0ddbac90557103ac0a0ec356",
+    "zip_code": "9861",
+    "city": "sbc",
+    "state": "SP"
+  },
+  {
+    "_id": "13f57c12a00ed4610db646b913a7f5c6",
+    "zip_code": "11015",
+    "city": "santos",
+    "state": "SP"
+  },
+  {
+    "_id": "432c67955c0acd1fd6b0b5d678766a71",
+    "zip_code": "5571",
+    "city": "sao paulo",
+    "state": "SP"
+  },
+  {
+    "_id": "34675b28b826facfde119785bf287dc1",
+    "zip_code": "85802",
+    "city": "cascavael",
+    "state": "PR"
+  },
+  {
+    "_id": "9add47bf45ce8e8c7db6b9cf670b1e09",
+    "zip_code": "83830",
+    "city": "fazenda rio grande",
+    "state": "PR"
+  },
+  {
+    "_id": "9cea4682e16655f7da87f406902e989e",
+    "zip_code": "83707",
+    "city": "araucaria",
+    "state": "PR"
+  },
+  {
+    "_id": "ede2977fbaf3738583170735ca403f6c",
+    "zip_code": "80010",
+    "city": "curitiba",
+    "state": "PR"
+  },
+  {
+    "_id": "c97aa4ee7420f937da13b7f9e2228b99",
+    "zip_code": "93510",
+    "city": "novo hamburgo",
+    "state": "RS"
+  },
+  {
+    "_id": "7fe21dd00d2f4943ae09525efa2fd674",
+    "zip_code": "20551",
+    "city": "rio de janeiro",
+    "state": "RJ"
+  },
+  {
+    "_id": "f3b80352b986ab4d1057a4b724be19d0",
+    "zip_code": "71200",
+    "city": "brasilia",
+    "state": "DF"
+  },
+  {
+    "_id": "d71d863e5ef30d94e440c11be17dcd8f",
+    "zip_code": "6144",
+    "city": "osasco",
+    "state": "SP"
+  },
+  {
+    "_id": "85e7c62c1d6ea078c3897424f867a7c8",
+    "zip_code": "88220",
+    "city": "itapema",
+    "state": "SC"
+  },
+  {
+    "_id": "55f7a3319d80f7fdf078b8f03e6725fe",
+    "zip_code": "6056",
+    "city": "osasco",
+    "state": "SP"
+  },
+  {
+    "_id": "1660ad786c27fd935378b6192a90b417",
+    "zip_code": "9891",
+    "city": "sao bernardo do campo",
+    "state": "SP"
+  },
+  {
+    "_id": "228e4c1a0be164f613d41c24345f9d2c",
+    "zip_code": "86360",
+    "city": "bandeirantes",
+    "state": "PR"
+  },
+  {
+    "_id": "7a2d2949aea47fab95fd98d6c9f618b1",
+    "zip_code": "81350",
+    "city": "curitiba",
+    "state": "PR"
+  },
+  {
+    "_id": "c4af86330efa7a2620772227d2d670c9",
+    "zip_code": "8840",
+    "city": "mogi das cruzes",
+    "state": "SP"
+  },
+  {
+    "_id": "7f40d06aa0b5f1aa4f41af8c0480e2ef",
+    "zip_code": "13506",
+    "city": "rio claro",
+    "state": "SP"
+  },
+  {
+    "_id": "1d2732ef8321502ee8488e8bed1ab8cd",
+    "zip_code": "20031",
+    "city": "rio de janeiro",
+    "state": "RJ"
+  },
+  {
+    "_id": "0c7533c71df861ec58ad7ff999ed0e8d",
+    "zip_code": "13270",
+    "city": "valinhos",
+    "state": "SP"
+  },
+  {
+    "_id": "e00d85ce20ea50c1224c66ca5050527d",
+    "zip_code": "6286",
+    "city": "osasco",
+    "state": "SP"
+  },
+  {
+    "_id": "0aa124728afc1131dff5655f4c6f487b",
+    "zip_code": "37135",
+    "city": "alfenas",
+    "state": "MG"
+  },
+  {
+    "_id": "013900e863eace745d3ec7614cab5b1a",
+    "zip_code": "80740",
+    "city": "curitiba",
+    "state": "PR"
+  },
+  {
+    "_id": "3febca52652e7209509ccfe61cbde40e",
+    "zip_code": "8596",
+    "city": "itaquaquecetuba",
+    "state": "SP"
+  },
+  {
+    "_id": "52092ddbd3a58c450a4459bf051b2287",
+    "zip_code": "17300",
+    "city": "dois corregos",
+    "state": "SP"
+  },
+  {
+    "_id": "c12d7463a579237ffb9248bd7cff378b",
+    "zip_code": "8275",
+    "city": "sao paulo",
+    "state": "SP"
+  },
+  {
+    "_id": "9ac75591b69c3402684b6ce0310f22ee",
+    "zip_code": "2880",
+    "city": "sao paulo",
+    "state": "SP"
+  },
+  {
+    "_id": "c33847515fa6305ce6feb1e818569f13",
+    "zip_code": "88359",
+    "city": "brusque",
+    "state": "SC"
+  },
+  {
+    "_id": "c0f783394e37cd9c9d7f5f81141450fa",
+    "zip_code": "13416",
+    "city": "piracicaba",
+    "state": "SP"
+  },
+  {
+    "_id": "7238a95bb63ef7e498389fb863b834a1",
+    "zip_code": "13487",
+    "city": "limeira",
+    "state": "SP"
+  },
+  {
+    "_id": "6dc9bec584588412a6a338830946a3e4",
+    "zip_code": "3270",
+    "city": "sao paulo",
+    "state": "SP"
+  },
+  {
+    "_id": "ae7ab174effdead6c241e547e4ca13f0",
+    "zip_code": "86703",
+    "city": "arapongas",
+    "state": "PR"
+  },
+  {
+    "_id": "4be9ae93c4fc0f41713d71a4194ee1b3",
+    "zip_code": "35500",
+    "city": "divinopolis",
+    "state": "MG"
+  }
+]

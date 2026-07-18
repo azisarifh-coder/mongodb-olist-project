@@ -1,0 +1,2807 @@
+[
+  {
+    "_id": "1c2dcebc8729b58ef305048ff12b1540",
+    "customer_id": "f25f80e2caa76bc88369d6deb846f7e9",
+    "status": "delivered",
+    "purchase_date": "2017-03-12 14:05:07",
+    "approved_at": "2017-03-12 14:05:07",
+    "delivered_carrier_date": "2017-03-15 12:37:51",
+    "delivered_customer_date": "2017-03-20 11:57:56",
+    "estimated_delivery_date": "2017-04-03 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 66.12,
+      "installments": 2
+    },
+    "items": {
+      "count": 1,
+      "total_price": 52.0,
+      "total_freight": 14.12,
+      "product_ids": [
+        "7e34dea6bf1b26c294d48bfc3fa41d9e"
+      ],
+      "seller_ids": [
+        "b1aaae6b66ad3c40f54b389d7ea4bee0"
+      ]
+    }
+  },
+  {
+    "_id": "db0bd04c3beff2d041d364ce8d96b2f0",
+    "customer_id": "3ac65bf8cf7bea336ad70d583da199cc",
+    "status": "delivered",
+    "purchase_date": "2018-08-12 10:34:07",
+    "approved_at": "2018-08-12 10:50:09",
+    "delivered_carrier_date": "2018-08-17 09:10:00",
+    "delivered_customer_date": "2018-08-23 16:51:39",
+    "estimated_delivery_date": "2018-09-28 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card",
+        "voucher"
+      ],
+      "total_value": 482.22,
+      "installments": 10
+    },
+    "items": {
+      "count": 1,
+      "total_price": 455.88,
+      "total_freight": 26.34,
+      "product_ids": [
+        "e4d325bd1eea550509bdbbc5c3301fc1"
+      ],
+      "seller_ids": [
+        "7178f9f4dd81dcef02f62acdf8151e01"
+      ]
+    }
+  },
+  {
+    "_id": "d899e9de06c12640420a628524e4c092",
+    "customer_id": "122ebc312342fd97b92fca93ee20ac06",
+    "status": "delivered",
+    "purchase_date": "2017-03-29 22:02:57",
+    "approved_at": "2017-03-31 10:25:22",
+    "delivered_carrier_date": "2017-04-03 14:47:45",
+    "delivered_customer_date": "2017-04-11 15:32:58",
+    "estimated_delivery_date": "2017-04-25 00:00:00",
+    "payment": {
+      "types": [
+        "boleto"
+      ],
+      "total_value": 114.86,
+      "installments": 1
+    },
+    "items": {
+      "count": 1,
+      "total_price": 99.99,
+      "total_freight": 14.87,
+      "product_ids": [
+        "076e4ce53c8914382e7ff3732511b17e"
+      ],
+      "seller_ids": [
+        "59fb871bf6f4522a87ba567b42dafecf"
+      ]
+    }
+  },
+  {
+    "_id": "05b7ab671d6b51e0b44ea73a54d9f739",
+    "customer_id": "6645b9283b1f5f504d00cce41870864f",
+    "status": "delivered",
+    "purchase_date": "2018-01-21 19:06:42",
+    "approved_at": "2018-01-22 18:58:22",
+    "delivered_carrier_date": "2018-01-24 00:52:37",
+    "delivered_customer_date": "2018-02-21 21:26:48",
+    "estimated_delivery_date": "2018-02-16 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 437.19,
+      "installments": 6
+    },
+    "items": {
+      "count": 1,
+      "total_price": 389.0,
+      "total_freight": 48.19,
+      "product_ids": [
+        "7612afaa8218e79b3011243ed9edea9c"
+      ],
+      "seller_ids": [
+        "821fb029fc6e495ca4f08a35d51e53a5"
+      ]
+    }
+  },
+  {
+    "_id": "3f0371aa67821598a57596f091ac6ba5",
+    "customer_id": "e9e2fd0dc6e825e6ba932afa33273551",
+    "status": "delivered",
+    "purchase_date": "2018-06-24 17:58:51",
+    "approved_at": "2018-06-24 18:15:15",
+    "delivered_carrier_date": "2018-06-25 09:36:00",
+    "delivered_customer_date": "2018-06-28 12:16:57",
+    "estimated_delivery_date": "2018-07-16 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 197.96,
+      "installments": 1
+    },
+    "items": {
+      "count": 1,
+      "total_price": 139.9,
+      "total_freight": 58.06,
+      "product_ids": [
+        "485977d79fe47209050d22d220aaab7f"
+      ],
+      "seller_ids": [
+        "0176f73cc1195f367f7b32db1e5b3aa8"
+      ]
+    }
+  },
+  {
+    "_id": "5ea6e04d681966d4ae2e0e6dcada5f20",
+    "customer_id": "715afa7e9686768e6db93aeca9998020",
+    "status": "delivered",
+    "purchase_date": "2018-01-30 09:46:33",
+    "approved_at": "2018-01-31 13:31:50",
+    "delivered_carrier_date": "2018-02-01 15:32:56",
+    "delivered_customer_date": "2018-02-14 15:36:49",
+    "estimated_delivery_date": "2018-03-05 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 47.62,
+      "installments": 4
+    },
+    "items": {
+      "count": 1,
+      "total_price": 29.99,
+      "total_freight": 17.63,
+      "product_ids": [
+        "c9c6fde711572c1ad99ca12728c6af00"
+      ],
+      "seller_ids": [
+        "562fc2f2c2863ab7e79a9e4388a58a14"
+      ]
+    }
+  },
+  {
+    "_id": "efd0f1ade75c87d48efc34e01b3c0f4f",
+    "customer_id": "0f346a2cc84ebb2d52f0759d0acfd030",
+    "status": "delivered",
+    "purchase_date": "2018-01-19 10:31:35",
+    "approved_at": "2018-01-19 10:55:34",
+    "delivered_carrier_date": "2018-01-22 21:35:12",
+    "delivered_customer_date": "2018-01-27 14:41:19",
+    "estimated_delivery_date": "2018-02-15 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 118.84,
+      "installments": 2
+    },
+    "items": {
+      "count": 1,
+      "total_price": 99.9,
+      "total_freight": 18.94,
+      "product_ids": [
+        "f1fe595ee7ef768b41bd9b246d13432d"
+      ],
+      "seller_ids": [
+        "81a1104df0f08b59c68aa5b03cfe398e"
+      ]
+    }
+  },
+  {
+    "_id": "0347673d14e454a696bca6aebe61f23e",
+    "customer_id": "f1d2dccf40e047efb9b678cde4a123cc",
+    "status": "delivered",
+    "purchase_date": "2017-11-27 14:54:37",
+    "approved_at": "2017-11-27 15:18:03",
+    "delivered_carrier_date": "2017-12-06 13:54:51",
+    "delivered_customer_date": "2017-12-22 12:27:00",
+    "estimated_delivery_date": "2017-12-19 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 85.92,
+      "installments": 4
+    },
+    "items": {
+      "count": 1,
+      "total_price": 69.99,
+      "total_freight": 15.93,
+      "product_ids": [
+        "8c81b8075a4b824afebae3dc276889eb"
+      ],
+      "seller_ids": [
+        "46dc3b2cc0980fb8ec44634e21d2718e"
+      ]
+    }
+  },
+  {
+    "_id": "6d4dd79bee1e2a93f09c9501c2ff87e7",
+    "customer_id": "08226425318d264796a7b7e32b9a1bf3",
+    "status": "delivered",
+    "purchase_date": "2017-11-24 12:47:44",
+    "approved_at": "2017-11-24 15:14:34",
+    "delivered_carrier_date": "2017-11-29 23:12:16",
+    "delivered_customer_date": "2017-12-29 17:56:26",
+    "estimated_delivery_date": "2017-12-14 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 307.56,
+      "installments": 10
+    },
+    "items": {
+      "count": 1,
+      "total_price": 294.0,
+      "total_freight": 13.56,
+      "product_ids": [
+        "2af3bc8c9414aa21fdcb986aba6fe286"
+      ],
+      "seller_ids": [
+        "4a3ca9315b744ce9f8e9374361493884"
+      ]
+    }
+  },
+  {
+    "_id": "3faf126d8a3b0684272791cd3c6cf3fe",
+    "customer_id": "824841f5112b77c04e832f5a46c2d733",
+    "status": "delivered",
+    "purchase_date": "2018-02-25 14:13:44",
+    "approved_at": "2018-02-25 14:28:09",
+    "delivered_carrier_date": "2018-02-28 19:59:33",
+    "delivered_customer_date": "2018-03-07 18:31:53",
+    "estimated_delivery_date": "2018-03-28 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 368.11,
+      "installments": 8
+    },
+    "items": {
+      "count": 1,
+      "total_price": 349.9,
+      "total_freight": 18.21,
+      "product_ids": [
+        "e4d325bd1eea550509bdbbc5c3301fc1"
+      ],
+      "seller_ids": [
+        "7178f9f4dd81dcef02f62acdf8151e01"
+      ]
+    }
+  },
+  {
+    "_id": "49c6bde44b077f985f0e3647916b6329",
+    "customer_id": "a12365591fbc4f0ad1deaec3bef23605",
+    "status": "delivered",
+    "purchase_date": "2018-02-10 21:03:56",
+    "approved_at": "2018-02-10 21:35:27",
+    "delivered_carrier_date": "2018-02-17 01:26:59",
+    "delivered_customer_date": "2018-02-24 16:39:03",
+    "estimated_delivery_date": "2018-03-09 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 428.25,
+      "installments": 10
+    },
+    "items": {
+      "count": 1,
+      "total_price": 359.99,
+      "total_freight": 68.26,
+      "product_ids": [
+        "b401695ca697a7d76595b73066aec52a"
+      ],
+      "seller_ids": [
+        "7402d13c03a7e91366337cd1de471144"
+      ]
+    }
+  },
+  {
+    "_id": "a6ae83eedb05638e88dace7706d71c26",
+    "customer_id": "d393b9491df482cf448e60aa9955b7f2",
+    "status": "delivered",
+    "purchase_date": "2017-07-07 22:35:49",
+    "approved_at": "2017-07-07 22:45:08",
+    "delivered_carrier_date": "2017-07-10 17:29:47",
+    "delivered_customer_date": "2017-07-20 12:42:26",
+    "estimated_delivery_date": "2017-07-31 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 116.36,
+      "installments": 7
+    },
+    "items": {
+      "count": 1,
+      "total_price": 99.9,
+      "total_freight": 16.46,
+      "product_ids": [
+        "b1e189f4b3dc3352ba24db1688e06d4b"
+      ],
+      "seller_ids": [
+        "da8622b14eb17ae2831f4ac5b9dab84a"
+      ]
+    }
+  },
+  {
+    "_id": "9a4705eb98d3d163623b45352b54919a",
+    "customer_id": "33f94cb672301b24d91aac31b9ff9178",
+    "status": "delivered",
+    "purchase_date": "2018-04-09 20:05:15",
+    "approved_at": "2018-04-09 20:29:55",
+    "delivered_carrier_date": "2018-04-10 17:21:31",
+    "delivered_customer_date": "2018-05-02 17:28:34",
+    "estimated_delivery_date": "2018-05-03 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 268.62,
+      "installments": 2
+    },
+    "items": {
+      "count": 1,
+      "total_price": 249.0,
+      "total_freight": 19.62,
+      "product_ids": [
+        "d10f7bc1a57ebe26d5994076f2bfa06b"
+      ],
+      "seller_ids": [
+        "8ae520247981aa06bc94abddf5f46d34"
+      ]
+    }
+  },
+  {
+    "_id": "04ffe5a8a70cc5dd6a00b68fd6c905e7",
+    "customer_id": "60ba4ae55efbc6dc0e428fc0f1fe0acb",
+    "status": "delivered",
+    "purchase_date": "2018-02-28 23:16:18",
+    "approved_at": "2018-03-01 17:30:41",
+    "delivered_carrier_date": "2018-03-06 20:23:20",
+    "delivered_customer_date": "2018-03-12 14:04:14",
+    "estimated_delivery_date": "2018-03-13 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 28.41,
+      "installments": 1
+    },
+    "items": {
+      "count": 1,
+      "total_price": 20.3,
+      "total_freight": 8.11,
+      "product_ids": [
+        "7fc59915d9bde9a845801ee04a8658fa"
+      ],
+      "seller_ids": [
+        "e5a3438891c0bfdb9394643f95273d8e"
+      ]
+    }
+  },
+  {
+    "_id": "a6cbdf5ace75b2a9e73a68a9a478060e",
+    "customer_id": "33fecdb758ed5ea2baaac2960295590c",
+    "status": "delivered",
+    "purchase_date": "2018-07-16 12:24:32",
+    "approved_at": "2018-07-17 04:20:57",
+    "delivered_carrier_date": "2018-07-17 13:38:00",
+    "delivered_customer_date": "2018-07-23 22:32:53",
+    "estimated_delivery_date": "2018-07-30 00:00:00",
+    "payment": {
+      "types": [
+        "boleto"
+      ],
+      "total_value": 70.97,
+      "installments": 1
+    },
+    "items": {
+      "count": 1,
+      "total_price": 56.99,
+      "total_freight": 13.98,
+      "product_ids": [
+        "bd6e6fce9ada76ea2db0f1912e8e478f"
+      ],
+      "seller_ids": [
+        "1835b56ce799e6a4dc4eddc053f04066"
+      ]
+    }
+  },
+  {
+    "_id": "f8064d75afcef1bab867ff6ca9b829b7",
+    "customer_id": "bcea0e501f387ea1941aff7b357c316d",
+    "status": "delivered",
+    "purchase_date": "2017-08-31 12:29:34",
+    "approved_at": "2017-09-01 12:44:59",
+    "delivered_carrier_date": "2017-09-06 23:42:52",
+    "delivered_customer_date": "2017-09-11 20:03:31",
+    "estimated_delivery_date": "2017-09-19 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 1032.35,
+      "installments": 10
+    },
+    "items": {
+      "count": 3,
+      "total_price": 970.0,
+      "total_freight": 62.36,
+      "product_ids": [
+        "29b18b99ca3c94cea05efa9e11465440",
+        "b2775a101dfacb48184ed1c1cb4a278b",
+        "29b18b99ca3c94cea05efa9e11465440"
+      ],
+      "seller_ids": [
+        "aced59e9b31ef866a94f9e7f29d8d418"
+      ]
+    }
+  },
+  {
+    "_id": "2459807af0cad1161d053ae93c170398",
+    "customer_id": "93bcaca0ba9906b15984025eb1ff7d06",
+    "status": "delivered",
+    "purchase_date": "2017-11-08 13:42:56",
+    "approved_at": "2017-11-08 13:50:33",
+    "delivered_carrier_date": "2017-11-09 18:44:50",
+    "delivered_customer_date": "2017-11-29 23:58:06",
+    "estimated_delivery_date": "2017-12-07 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 55.62,
+      "installments": 1
+    },
+    "items": {
+      "count": 1,
+      "total_price": 29.99,
+      "total_freight": 25.63,
+      "product_ids": [
+        "036734b5a58d5d4f46b0616ddc047ced"
+      ],
+      "seller_ids": [
+        "ea8482cd71df3c1969d7b9473ff13abc"
+      ]
+    }
+  },
+  {
+    "_id": "8d7ab0caaba5e4a2f8e11caff31dfe48",
+    "customer_id": "50aaed44e9c8129beddba50bf99c232a",
+    "status": "delivered",
+    "purchase_date": "2018-07-31 20:18:46",
+    "approved_at": "2018-07-31 21:00:12",
+    "delivered_carrier_date": "2018-08-01 14:35:00",
+    "delivered_customer_date": "2018-08-02 18:11:47",
+    "estimated_delivery_date": "2018-08-06 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 670.77,
+      "installments": 8
+    },
+    "items": {
+      "count": 1,
+      "total_price": 658.9,
+      "total_freight": 11.87,
+      "product_ids": [
+        "80459e1beff7fc5d0e2fbe676d043a64"
+      ],
+      "seller_ids": [
+        "fa1c13f2614d7b5c4749cbc52fecda94"
+      ]
+    }
+  },
+  {
+    "_id": "00335f75ea6a4455b524a8dd177067f5",
+    "customer_id": "32b84239e3f3904ac162d832454770c7",
+    "status": "delivered",
+    "purchase_date": "2018-04-25 21:47:26",
+    "approved_at": "2018-04-25 22:10:29",
+    "delivered_carrier_date": "2018-04-27 14:49:00",
+    "delivered_customer_date": "2018-05-03 22:16:51",
+    "estimated_delivery_date": "2018-05-28 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 177.01,
+      "installments": 4
+    },
+    "items": {
+      "count": 1,
+      "total_price": 168.8,
+      "total_freight": 8.21,
+      "product_ids": [
+        "e1bf2f209fd2b08e1af3ed71732d9008"
+      ],
+      "seller_ids": [
+        "70c27847eca8195c983ed7e798c56743"
+      ]
+    }
+  },
+  {
+    "_id": "496ed3d2f9bcb86cb243f5e9fe1627e5",
+    "customer_id": "06d970f4d3006a575508a217a7acb7e5",
+    "status": "delivered",
+    "purchase_date": "2017-09-19 16:33:22",
+    "approved_at": "2017-09-19 16:50:27",
+    "delivered_carrier_date": "2017-09-20 19:12:44",
+    "delivered_customer_date": "2017-10-05 12:00:05",
+    "estimated_delivery_date": "2017-10-20 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 191.58,
+      "installments": 10
+    },
+    "items": {
+      "count": 2,
+      "total_price": 155.98,
+      "total_freight": 35.6,
+      "product_ids": [
+        "5f00c50de3d989194f0439e343480372",
+        "5f00c50de3d989194f0439e343480372"
+      ],
+      "seller_ids": [
+        "3b15288545f8928d3e65a8f949a28291"
+      ]
+    }
+  },
+  {
+    "_id": "4aedcb4bba7bd4df97054bc2c6de7aed",
+    "customer_id": "e589a8bbf2391c4a76e74041c646dec8",
+    "status": "delivered",
+    "purchase_date": "2018-05-17 18:36:14",
+    "approved_at": "2018-05-18 00:37:30",
+    "delivered_carrier_date": "2018-05-18 13:48:00",
+    "delivered_customer_date": "2018-06-07 10:58:44",
+    "estimated_delivery_date": "2018-06-18 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 591.54,
+      "installments": 8
+    },
+    "items": {
+      "count": 1,
+      "total_price": 550.99,
+      "total_freight": 40.55,
+      "product_ids": [
+        "f81353ef7f563e3a3a1ea413fb41cbeb"
+      ],
+      "seller_ids": [
+        "2e3be8a987a30d7544dbbda6861cc14e"
+      ]
+    }
+  },
+  {
+    "_id": "d02c31bf4f5e040587f04c64f8e0ee9c",
+    "customer_id": "571f9e60ad9942db4d49ea1a37343445",
+    "status": "delivered",
+    "purchase_date": "2017-11-23 15:59:57",
+    "approved_at": "2017-11-23 16:08:35",
+    "delivered_carrier_date": "2017-11-28 21:09:05",
+    "delivered_customer_date": "2017-12-01 19:51:43",
+    "estimated_delivery_date": "2017-12-15 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 120.91,
+      "installments": 2
+    },
+    "items": {
+      "count": 1,
+      "total_price": 97.9,
+      "total_freight": 23.01,
+      "product_ids": [
+        "e3ace35fe59021565fa9989acfdf8f3a"
+      ],
+      "seller_ids": [
+        "6edacfd9f9074789dad6d62ba7950b9c"
+      ]
+    }
+  },
+  {
+    "_id": "b7d0c58d1481d0c3f2465efcbf9bb83b",
+    "customer_id": "d9b4a26e122e830decf445a401ff0506",
+    "status": "delivered",
+    "purchase_date": "2017-06-09 11:25:09",
+    "approved_at": "2017-06-10 02:45:23",
+    "delivered_carrier_date": "2017-06-13 12:16:08",
+    "delivered_customer_date": "2017-06-19 21:16:49",
+    "estimated_delivery_date": "2017-07-06 00:00:00",
+    "payment": {
+      "types": [
+        "boleto"
+      ],
+      "total_value": 171.85,
+      "installments": 1
+    },
+    "items": {
+      "count": 1,
+      "total_price": 155.0,
+      "total_freight": 16.85,
+      "product_ids": [
+        "8092fb20e422a961ea52cd441b5a4244"
+      ],
+      "seller_ids": [
+        "897060da8b9a21f655304d50fd935913"
+      ]
+    }
+  },
+  {
+    "_id": "8a8d6849ca8e15a0ef3c1daad1e76056",
+    "customer_id": "4cf7ca82e6a8dce7f133a986b20e82e0",
+    "status": "delivered",
+    "purchase_date": "2017-08-20 18:59:30",
+    "approved_at": "2017-08-22 04:05:22",
+    "delivered_carrier_date": "2017-08-25 18:25:50",
+    "delivered_customer_date": "2017-08-28 20:32:43",
+    "estimated_delivery_date": "2017-09-20 00:00:00",
+    "payment": {
+      "types": [
+        "boleto"
+      ],
+      "total_value": 48.01,
+      "installments": 1
+    },
+    "items": {
+      "count": 1,
+      "total_price": 39.9,
+      "total_freight": 8.11,
+      "product_ids": [
+        "f636021ab0248325d2b69e3bcfc489bd"
+      ],
+      "seller_ids": [
+        "dd2bdf855a9172734fbc3744021ae9b9"
+      ]
+    }
+  },
+  {
+    "_id": "a849c2a7ea93e09f56fba22f019394da",
+    "customer_id": "29d896af6952f87f4e4416e976985555",
+    "status": "delivered",
+    "purchase_date": "2017-11-25 18:25:52",
+    "approved_at": "2017-11-25 19:03:57",
+    "delivered_carrier_date": "2017-11-27 15:57:05",
+    "delivered_customer_date": "2017-12-19 22:42:51",
+    "estimated_delivery_date": "2017-12-19 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 68.49,
+      "installments": 2
+    },
+    "items": {
+      "count": 2,
+      "total_price": 35.6,
+      "total_freight": 32.89,
+      "product_ids": [
+        "f59871b3d9da4c64cbe41ad3dd04dc14",
+        "ab44178963b4bf809adc477810f9175d"
+      ],
+      "seller_ids": [
+        "116ccb1a1604bc88e4d234a8c23f33de",
+        "537eb890efff034a88679788b647c564"
+      ]
+    }
+  },
+  {
+    "_id": "0c2b241aa0c85f5e27ad334225793b87",
+    "customer_id": "eab17001b1d7cde27c1f1234af12d4e6",
+    "status": "delivered",
+    "purchase_date": "2018-04-02 15:21:10",
+    "approved_at": "2018-04-04 03:29:29",
+    "delivered_carrier_date": "2018-04-18 22:28:34",
+    "delivered_customer_date": "2018-05-14 23:28:30",
+    "estimated_delivery_date": "2018-05-18 00:00:00",
+    "payment": {
+      "types": [
+        "boleto"
+      ],
+      "total_value": 314.04,
+      "installments": 1
+    },
+    "items": {
+      "count": 3,
+      "total_price": 239.97,
+      "total_freight": 74.07,
+      "product_ids": [
+        "3eef0cb94ba82de806bb30ab743c7655",
+        "3eef0cb94ba82de806bb30ab743c7655",
+        "3eef0cb94ba82de806bb30ab743c7655"
+      ],
+      "seller_ids": [
+        "7c67e1448b00f6e969d365cea6b010ab"
+      ]
+    }
+  },
+  {
+    "_id": "f992a59bd269c4eb0ae5ca2d403474b6",
+    "customer_id": "a0f1252b8378182f65bc311788d25d0c",
+    "status": "delivered",
+    "purchase_date": "2017-03-11 16:22:20",
+    "approved_at": "2017-03-11 16:22:20",
+    "delivered_carrier_date": "2017-03-13 14:12:51",
+    "delivered_customer_date": "2017-03-20 07:32:58",
+    "estimated_delivery_date": "2017-04-04 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 34.42,
+      "installments": 1
+    },
+    "items": {
+      "count": 1,
+      "total_price": 19.9,
+      "total_freight": 14.52,
+      "product_ids": [
+        "a1bf559ac1eab015ba992bd76d9d76c7"
+      ],
+      "seller_ids": [
+        "85d9eb9ddc5d00ca9336a2219c97bb13"
+      ]
+    }
+  },
+  {
+    "_id": "0e5c4fff98e1b7885f4ce7e7e13e37f1",
+    "customer_id": "db6331ea477ade9eb6cef50909c93230",
+    "status": "delivered",
+    "purchase_date": "2018-01-30 18:26:27",
+    "approved_at": "2018-02-01 03:12:35",
+    "delivered_carrier_date": "2018-02-02 01:09:35",
+    "delivered_customer_date": "2018-02-14 16:58:59",
+    "estimated_delivery_date": "2018-03-06 00:00:00",
+    "payment": {
+      "types": [
+        "boleto"
+      ],
+      "total_value": 102.72,
+      "installments": 1
+    },
+    "items": {
+      "count": 1,
+      "total_price": 82.9,
+      "total_freight": 19.82,
+      "product_ids": [
+        "6631e618f60618adc0361b7ab843c98d"
+      ],
+      "seller_ids": [
+        "1cbd50a8c52e6cf8e315c5709fab386f"
+      ]
+    }
+  },
+  {
+    "_id": "c1eab54ad584ff7acf4b8f5e4020c005",
+    "customer_id": "3be4ac356c3f5f24bfac0a0a60ad48d0",
+    "status": "delivered",
+    "purchase_date": "2018-07-19 18:49:17",
+    "approved_at": "2018-07-19 19:03:16",
+    "delivered_carrier_date": "2018-07-20 15:58:00",
+    "delivered_customer_date": "2018-07-25 20:33:42",
+    "estimated_delivery_date": "2018-08-07 00:00:00",
+    "payment": {
+      "types": [
+        "voucher"
+      ],
+      "total_value": 99.33,
+      "installments": 1
+    },
+    "items": {
+      "count": 1,
+      "total_price": 76.0,
+      "total_freight": 23.33,
+      "product_ids": [
+        "be55ae76be8824525f40695d49a5a7b5"
+      ],
+      "seller_ids": [
+        "7238a95bb63ef7e498389fb863b834a1"
+      ]
+    }
+  },
+  {
+    "_id": "1b5364692444d3fa21966ab73ae925ab",
+    "customer_id": "c9e1bf85960698190ad550557fa852d3",
+    "status": "delivered",
+    "purchase_date": "2017-05-07 01:20:15",
+    "approved_at": "2017-05-09 09:30:54",
+    "delivered_carrier_date": "2017-05-09 14:20:35",
+    "delivered_customer_date": "2017-05-23 12:17:51",
+    "estimated_delivery_date": "2017-06-01 00:00:00",
+    "payment": {
+      "types": [
+        "boleto"
+      ],
+      "total_value": 125.42,
+      "installments": 1
+    },
+    "items": {
+      "count": 1,
+      "total_price": 109.9,
+      "total_freight": 15.52,
+      "product_ids": [
+        "f2e53dd1670f3c376518263b3f71424d"
+      ],
+      "seller_ids": [
+        "4a3ca9315b744ce9f8e9374361493884"
+      ]
+    }
+  },
+  {
+    "_id": "972d6687f988a5383e3593ec28911400",
+    "customer_id": "764c697264e9c98080259f8640b5c49e",
+    "status": "delivered",
+    "purchase_date": "2017-11-24 23:56:33",
+    "approved_at": "2017-11-25 02:38:28",
+    "delivered_carrier_date": "2017-12-06 17:07:21",
+    "delivered_customer_date": "2018-01-09 16:48:54",
+    "estimated_delivery_date": "2017-12-15 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 133.48,
+      "installments": 3
+    },
+    "items": {
+      "count": 1,
+      "total_price": 116.9,
+      "total_freight": 16.58,
+      "product_ids": [
+        "3e5201fe0d1ba474d9b90152c83c706c"
+      ],
+      "seller_ids": [
+        "8160255418d5aaa7dbdc9f4c64ebda44"
+      ]
+    }
+  },
+  {
+    "_id": "69f7357c456d8072ad6671becb0f55a5",
+    "customer_id": "dcd82b51ed72861d202f5dc8b3ac8a19",
+    "status": "delivered",
+    "purchase_date": "2018-04-30 20:06:23",
+    "approved_at": "2018-05-01 02:53:14",
+    "delivered_carrier_date": "2018-05-03 16:09:00",
+    "delivered_customer_date": "2018-05-18 19:47:02",
+    "estimated_delivery_date": "2018-05-17 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 117.27,
+      "installments": 2
+    },
+    "items": {
+      "count": 1,
+      "total_price": 99.0,
+      "total_freight": 18.27,
+      "product_ids": [
+        "abc3c2e40b0c9b7b115a96bc6c919ae1"
+      ],
+      "seller_ids": [
+        "02dcd3e8e25bee036e32512bcf175493"
+      ]
+    }
+  },
+  {
+    "_id": "33afe754f48de3e2e8abaf42f1d6281e",
+    "customer_id": "888b89909b823773e3a9676f72cbdc2a",
+    "status": "delivered",
+    "purchase_date": "2018-07-23 10:52:17",
+    "approved_at": "2018-07-23 13:31:23",
+    "delivered_carrier_date": "2018-07-25 13:54:00",
+    "delivered_customer_date": "2018-08-03 17:41:40",
+    "estimated_delivery_date": "2018-08-15 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 122.01,
+      "installments": 3
+    },
+    "items": {
+      "count": 1,
+      "total_price": 72.99,
+      "total_freight": 49.02,
+      "product_ids": [
+        "2ff995aead9c63a1f37a07b3664ead37"
+      ],
+      "seller_ids": [
+        "8b9d6eec4a7eb7d0f9d579ce0b38324d"
+      ]
+    }
+  },
+  {
+    "_id": "46c0b3ab3b1d05b0f8af19f0100a33c4",
+    "customer_id": "6a8f01843537891ff93700664ca11c7b",
+    "status": "delivered",
+    "purchase_date": "2018-08-18 18:37:12",
+    "approved_at": "2018-08-18 18:49:26",
+    "delivered_carrier_date": "2018-08-21 13:31:00",
+    "delivered_customer_date": "2018-08-28 19:30:41",
+    "estimated_delivery_date": "2018-09-19 00:00:00",
+    "payment": {
+      "types": [
+        "debit_card"
+      ],
+      "total_value": 369.22,
+      "installments": 1
+    },
+    "items": {
+      "count": 1,
+      "total_price": 330.0,
+      "total_freight": 39.22,
+      "product_ids": [
+        "bb50f2e236e5eea0100680137654686c"
+      ],
+      "seller_ids": [
+        "f7ba60f8c3f99e7ee4042fdef03b70c4"
+      ]
+    }
+  },
+  {
+    "_id": "1e07ba4e9a6dafcecd0c46111e477e5c",
+    "customer_id": "ebfe7f31f9c0f96c6e0ce986e77a1359",
+    "status": "delivered",
+    "purchase_date": "2018-02-15 18:54:00",
+    "approved_at": "2018-02-15 19:10:26",
+    "delivered_carrier_date": "2018-02-16 20:27:00",
+    "delivered_customer_date": "2018-04-17 00:52:06",
+    "estimated_delivery_date": "2018-03-16 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 132.48,
+      "installments": 2
+    },
+    "items": {
+      "count": 1,
+      "total_price": 116.91,
+      "total_freight": 15.57,
+      "product_ids": [
+        "cd974e9271f5d14639a1af02929a8be2"
+      ],
+      "seller_ids": [
+        "5a93f3ab0ef4c84ed5e1b5dbf23978bc"
+      ]
+    }
+  },
+  {
+    "_id": "ff54c442f3e9f50941a09dcf4e061e6f",
+    "customer_id": "c761ebec64b4f7a47b094442b3dbfe0d",
+    "status": "delivered",
+    "purchase_date": "2017-02-08 14:42:14",
+    "approved_at": "2017-02-09 03:03:23",
+    "delivered_carrier_date": "2017-02-20 07:35:07",
+    "delivered_customer_date": "2017-02-25 05:57:53",
+    "estimated_delivery_date": "2017-03-27 00:00:00",
+    "payment": {
+      "types": [
+        "boleto"
+      ],
+      "total_value": 149.0,
+      "installments": 1
+    },
+    "items": {
+      "count": 1,
+      "total_price": 119.97,
+      "total_freight": 29.03,
+      "product_ids": [
+        "e41a6ac2f57a273eb0d214c7cbab5db9"
+      ],
+      "seller_ids": [
+        "a7f13822ceb966b076af67121f87b063"
+      ]
+    }
+  },
+  {
+    "_id": "414a59b4de3aa1d952cc6c75d79d628d",
+    "customer_id": "1c188a043c24a9ba1fb58fab235989c0",
+    "status": "delivered",
+    "purchase_date": "2018-03-03 13:41:30",
+    "approved_at": "2018-03-03 14:20:23",
+    "delivered_carrier_date": "2018-03-07 20:12:45",
+    "delivered_customer_date": "2018-03-13 20:39:24",
+    "estimated_delivery_date": "2018-03-21 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 43.95,
+      "installments": 1
+    },
+    "items": {
+      "count": 1,
+      "total_price": 32.1,
+      "total_freight": 11.85,
+      "product_ids": [
+        "dd676d49d051ea143257c1012bc1ee3c"
+      ],
+      "seller_ids": [
+        "4e5725ba188db8252977a4f0227bd462"
+      ]
+    }
+  },
+  {
+    "_id": "5c1a7adae63c3dd38c445817f9947cf2",
+    "customer_id": "a55b85ff2960e23e05447c3c371899b0",
+    "status": "delivered",
+    "purchase_date": "2018-03-16 11:11:42",
+    "approved_at": "2018-03-17 02:40:36",
+    "delivered_carrier_date": "2018-03-20 00:37:45",
+    "delivered_customer_date": "2018-03-26 14:17:37",
+    "estimated_delivery_date": "2018-04-05 00:00:00",
+    "payment": {
+      "types": [
+        "boleto"
+      ],
+      "total_value": 143.38,
+      "installments": 1
+    },
+    "items": {
+      "count": 1,
+      "total_price": 120.0,
+      "total_freight": 23.38,
+      "product_ids": [
+        "30ac6df06dc59ad72cf2f158fc2d904c"
+      ],
+      "seller_ids": [
+        "0dd184061fb0eaa7ca37932c68ab91c5"
+      ]
+    }
+  },
+  {
+    "_id": "ca00c2ba5781124bd9493423de6d8862",
+    "customer_id": "dafe240fa4132e5da366caf9f6f9caaf",
+    "status": "delivered",
+    "purchase_date": "2018-08-10 18:09:49",
+    "approved_at": "2018-08-10 18:25:13",
+    "delivered_carrier_date": "2018-08-13 09:01:00",
+    "delivered_customer_date": "2018-08-17 19:50:46",
+    "estimated_delivery_date": "2018-08-27 00:00:00",
+    "payment": {
+      "types": [
+        "debit_card"
+      ],
+      "total_value": 422.48,
+      "installments": 1
+    },
+    "items": {
+      "count": 2,
+      "total_price": 359.8,
+      "total_freight": 62.68,
+      "product_ids": [
+        "026f43af35e7951067097527d5c31bcc",
+        "026f43af35e7951067097527d5c31bcc"
+      ],
+      "seller_ids": [
+        "269cff2d3c8d205c11f37a52402ea93b"
+      ]
+    }
+  },
+  {
+    "_id": "11a6156f787eb963fb211db50db44d99",
+    "customer_id": "ee517d3a38e003aabc2dc2b08a0bc6fb",
+    "status": "delivered",
+    "purchase_date": "2018-05-11 20:26:43",
+    "approved_at": "2018-05-11 20:57:13",
+    "delivered_carrier_date": "2018-05-14 12:56:00",
+    "delivered_customer_date": "2018-06-07 00:08:47",
+    "estimated_delivery_date": "2018-06-04 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 1843.85,
+      "installments": 10
+    },
+    "items": {
+      "count": 1,
+      "total_price": 1799.0,
+      "total_freight": 44.85,
+      "product_ids": [
+        "0433830caca22b01a0f477d31307b043"
+      ],
+      "seller_ids": [
+        "ba90964cff9b9e0e6f32b23b82465f7b"
+      ]
+    }
+  },
+  {
+    "_id": "3952808713e11b033a67e9dddb6872f9",
+    "customer_id": "beabad0a90f659fbd73b571183bab1ec",
+    "status": "delivered",
+    "purchase_date": "2017-08-08 09:04:21",
+    "approved_at": "2017-08-08 09:40:08",
+    "delivered_carrier_date": "2017-08-08 18:06:51",
+    "delivered_customer_date": "2017-08-11 16:43:06",
+    "estimated_delivery_date": "2017-09-13 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 117.0,
+      "installments": 5
+    },
+    "items": {
+      "count": 1,
+      "total_price": 99.0,
+      "total_freight": 18.0,
+      "product_ids": [
+        "11dc4053871ff53ff79fb1fc7e6b160f"
+      ],
+      "seller_ids": [
+        "b1ac6ea7895bc3dd6f0f6f4abbdd2821"
+      ]
+    }
+  },
+  {
+    "_id": "103188b1afa4614c023b86344f79727b",
+    "customer_id": "3d7ded9f88ad6b06bc3f16ef0987fc54",
+    "status": "delivered",
+    "purchase_date": "2017-11-27 13:53:44",
+    "approved_at": "2017-11-27 14:18:39",
+    "delivered_carrier_date": "2017-11-28 20:34:38",
+    "delivered_customer_date": "2018-03-26 13:09:54",
+    "estimated_delivery_date": "2017-12-11 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 111.8,
+      "installments": 10
+    },
+    "items": {
+      "count": 1,
+      "total_price": 99.9,
+      "total_freight": 11.9,
+      "product_ids": [
+        "15c2f1db81672725401439acc4872622"
+      ],
+      "seller_ids": [
+        "994f04b3718c2bab35c2adfa8afecd2a"
+      ]
+    }
+  },
+  {
+    "_id": "d1e15a79329ed78d7982521b3b3b2a8f",
+    "customer_id": "ae3f264a566530ebaeb52b2cc1559b5e",
+    "status": "delivered",
+    "purchase_date": "2017-07-19 23:37:44",
+    "approved_at": "2017-07-19 23:50:10",
+    "delivered_carrier_date": "2017-07-25 18:38:32",
+    "delivered_customer_date": "2017-08-08 17:03:04",
+    "estimated_delivery_date": "2017-08-22 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 214.03,
+      "installments": 10
+    },
+    "items": {
+      "count": 1,
+      "total_price": 169.0,
+      "total_freight": 45.03,
+      "product_ids": [
+        "daa634b8673533acf6639172bc4b2d99"
+      ],
+      "seller_ids": [
+        "5b581417df4480f632484ba681e53944"
+      ]
+    }
+  },
+  {
+    "_id": "6eace5a496456d346454761a9fc00dd2",
+    "customer_id": "ba5642b730704dc0f74b7cf715b41ed5",
+    "status": "delivered",
+    "purchase_date": "2018-08-13 15:17:31",
+    "approved_at": "2018-08-20 09:21:49",
+    "delivered_carrier_date": "2018-08-14 14:47:00",
+    "delivered_customer_date": "2018-08-23 11:03:09",
+    "estimated_delivery_date": "2018-09-10 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 184.68,
+      "installments": 8
+    },
+    "items": {
+      "count": 1,
+      "total_price": 139.9,
+      "total_freight": 44.78,
+      "product_ids": [
+        "0f820791c5bd8fc3b05f6b897877fb1f"
+      ],
+      "seller_ids": [
+        "c12b92bf1c350f3e6bf88d3596219c86"
+      ]
+    }
+  },
+  {
+    "_id": "416e49799e9260d93c8f636ce6661a55",
+    "customer_id": "c986404d6cdb4c44f42b32e11f5b4296",
+    "status": "delivered",
+    "purchase_date": "2017-12-11 00:21:08",
+    "approved_at": "2017-12-11 00:30:29",
+    "delivered_carrier_date": "2017-12-12 21:35:55",
+    "delivered_customer_date": "2017-12-16 00:14:54",
+    "estimated_delivery_date": "2017-12-29 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 94.4,
+      "installments": 4
+    },
+    "items": {
+      "count": 1,
+      "total_price": 84.99,
+      "total_freight": 9.41,
+      "product_ids": [
+        "4c2394abfbac7ff59ec7a420918562fa"
+      ],
+      "seller_ids": [
+        "cc419e0650a3c5ba77189a1882b7556a"
+      ]
+    }
+  },
+  {
+    "_id": "a74cc8a52f06a253c4da2c17bad5795b",
+    "customer_id": "4bcc37ebec377d9568249fe87c94f00f",
+    "status": "delivered",
+    "purchase_date": "2017-02-13 23:26:51",
+    "approved_at": "2017-02-13 23:35:17",
+    "delivered_carrier_date": "2017-02-22 09:35:04",
+    "delivered_customer_date": "2017-02-24 16:42:44",
+    "estimated_delivery_date": "2017-03-16 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 151.18,
+      "installments": 8
+    },
+    "items": {
+      "count": 1,
+      "total_price": 129.96,
+      "total_freight": 21.22,
+      "product_ids": [
+        "256c61261c818dab727fa2a60d8964ca"
+      ],
+      "seller_ids": [
+        "a7f13822ceb966b076af67121f87b063"
+      ]
+    }
+  },
+  {
+    "_id": "1407b8c9ec30eed1a581452a7106dba9",
+    "customer_id": "9379aa1c18e5838ac70d531dfa5505af",
+    "status": "delivered",
+    "purchase_date": "2018-03-28 19:34:07",
+    "approved_at": "2018-03-28 19:50:15",
+    "delivered_carrier_date": "2018-03-29 16:52:51",
+    "delivered_customer_date": "2018-04-20 20:41:54",
+    "estimated_delivery_date": "2018-04-23 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 123.18,
+      "installments": 6
+    },
+    "items": {
+      "count": 1,
+      "total_price": 99.9,
+      "total_freight": 23.28,
+      "product_ids": [
+        "5570e58fb62fc2a83e5bda3974e35be5"
+      ],
+      "seller_ids": [
+        "da8622b14eb17ae2831f4ac5b9dab84a"
+      ]
+    }
+  },
+  {
+    "_id": "77ce7f33b46e4a158d452e6ccf0dff14",
+    "customer_id": "6311a3c1ac4f50b4d94af47a6cd0e20e",
+    "status": "delivered",
+    "purchase_date": "2018-03-24 16:17:19",
+    "approved_at": "2018-03-24 17:08:04",
+    "delivered_carrier_date": "2018-03-26 21:46:59",
+    "delivered_customer_date": "2018-04-07 13:11:54",
+    "estimated_delivery_date": "2018-04-17 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 61.32,
+      "installments": 1
+    },
+    "items": {
+      "count": 1,
+      "total_price": 42.0,
+      "total_freight": 19.32,
+      "product_ids": [
+        "5ee245f4f514e8937aa7a5ef3ec2c8b7"
+      ],
+      "seller_ids": [
+        "a3e9a2c700480d9bb01fba070ba80a0e"
+      ]
+    }
+  },
+  {
+    "_id": "d0a1df38173b0296c8cfb65fd0e1e361",
+    "customer_id": "e84608e3babe2d06427e6ce76335268c",
+    "status": "delivered",
+    "purchase_date": "2018-05-17 01:01:52",
+    "approved_at": "2018-05-17 01:15:18",
+    "delivered_carrier_date": "2018-05-17 13:16:00",
+    "delivered_customer_date": "2018-05-19 15:02:11",
+    "estimated_delivery_date": "2018-05-29 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 33.45,
+      "installments": 1
+    },
+    "items": {
+      "count": 1,
+      "total_price": 25.9,
+      "total_freight": 7.55,
+      "product_ids": [
+        "8215db96a612d69839c27866feabf350"
+      ],
+      "seller_ids": [
+        "516e7738bd8f735ac19a010ee5450d8d"
+      ]
+    }
+  },
+  {
+    "_id": "ccf6899464ad94a5d61964bafc6a4f0a",
+    "customer_id": "92aa8377d76dce02451719d307524fe7",
+    "status": "delivered",
+    "purchase_date": "2017-10-24 21:14:02",
+    "approved_at": "2017-10-24 21:28:10",
+    "delivered_carrier_date": "2017-10-25 18:27:15",
+    "delivered_customer_date": "2017-11-01 13:53:36",
+    "estimated_delivery_date": "2017-11-16 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 103.55,
+      "installments": 8
+    },
+    "items": {
+      "count": 1,
+      "total_price": 89.9,
+      "total_freight": 13.65,
+      "product_ids": [
+        "283dc451ad3918badb976d56ff887289"
+      ],
+      "seller_ids": [
+        "da8622b14eb17ae2831f4ac5b9dab84a"
+      ]
+    }
+  },
+  {
+    "_id": "52628d72feaca84428e9d902d3985605",
+    "customer_id": "a5e6bf4ac91d2a0df7e87ad00f4b35b9",
+    "status": "delivered",
+    "purchase_date": "2018-08-07 14:52:44",
+    "approved_at": "2018-08-07 15:05:16",
+    "delivered_carrier_date": "2018-08-08 12:23:00",
+    "delivered_customer_date": "2018-08-13 18:56:21",
+    "estimated_delivery_date": "2018-08-17 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 96.67,
+      "installments": 3
+    },
+    "items": {
+      "count": 1,
+      "total_price": 78.99,
+      "total_freight": 17.68,
+      "product_ids": [
+        "1c42a107473d6b20db8ac7772b870e33"
+      ],
+      "seller_ids": [
+        "1900267e848ceeba8fa32d80c1a5f5a8"
+      ]
+    }
+  },
+  {
+    "_id": "a5d15a04b449d50c1c003aa310e67649",
+    "customer_id": "bdb7900162ab12a8d513a360dbca93d1",
+    "status": "delivered",
+    "purchase_date": "2018-08-11 16:13:27",
+    "approved_at": "2018-08-11 16:25:10",
+    "delivered_carrier_date": "2018-08-22 13:35:00",
+    "delivered_customer_date": "2018-08-29 17:24:43",
+    "estimated_delivery_date": "2018-09-28 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 58.19,
+      "installments": 3
+    },
+    "items": {
+      "count": 1,
+      "total_price": 25.99,
+      "total_freight": 32.2,
+      "product_ids": [
+        "5f439ff2783a474946e17badd77aea1c"
+      ],
+      "seller_ids": [
+        "ea566164622c6b439516ab18062c42cd"
+      ]
+    }
+  },
+  {
+    "_id": "f750e148543e798460383fda407de8be",
+    "customer_id": "c7432c6d237ffd6aa36a007b4237ec38",
+    "status": "delivered",
+    "purchase_date": "2018-06-03 23:55:46",
+    "approved_at": "2018-06-04 00:10:23",
+    "delivered_carrier_date": "2018-06-05 07:24:00",
+    "delivered_customer_date": "2018-06-06 20:47:35",
+    "estimated_delivery_date": "2018-06-20 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 124.5,
+      "installments": 1
+    },
+    "items": {
+      "count": 1,
+      "total_price": 116.5,
+      "total_freight": 8.0,
+      "product_ids": [
+        "0e2d365a247d105fefc31b17ab8706d9"
+      ],
+      "seller_ids": [
+        "1c40343cc5d18c2d8248ac2f3366de34"
+      ]
+    }
+  },
+  {
+    "_id": "ea25b59c25bc728231bbd0e8b6134ef1",
+    "customer_id": "7f399d641e2e2064470145178c9e8778",
+    "status": "delivered",
+    "purchase_date": "2017-05-18 16:27:03",
+    "approved_at": "2017-05-21 10:35:16",
+    "delivered_carrier_date": "2017-05-22 11:05:04",
+    "delivered_customer_date": "2017-05-26 12:05:39",
+    "estimated_delivery_date": "2017-06-09 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 148.15,
+      "installments": 1
+    },
+    "items": {
+      "count": 1,
+      "total_price": 129.99,
+      "total_freight": 18.16,
+      "product_ids": [
+        "601a360bd2a916ecef0e88de72a6531a"
+      ],
+      "seller_ids": [
+        "7a67c85e85bb2ce8582c35f2203ad736"
+      ]
+    }
+  },
+  {
+    "_id": "e8f5f9fb65db20f08e707adec28407c9",
+    "customer_id": "784901d3f22212ba0ea67576d2c41ffd",
+    "status": "delivered",
+    "purchase_date": "2018-06-24 20:08:48",
+    "approved_at": "2018-06-25 10:55:35",
+    "delivered_carrier_date": "2018-06-28 14:47:00",
+    "delivered_customer_date": "2018-07-05 22:04:55",
+    "estimated_delivery_date": "2018-07-27 00:00:00",
+    "payment": {
+      "types": [
+        "debit_card"
+      ],
+      "total_value": 608.2,
+      "installments": 1
+    },
+    "items": {
+      "count": 1,
+      "total_price": 586.0,
+      "total_freight": 22.2,
+      "product_ids": [
+        "9bfc55df037ce3ac01bfd84781adf7e5"
+      ],
+      "seller_ids": [
+        "7d13fca15225358621be4086e1eb0964"
+      ]
+    }
+  },
+  {
+    "_id": "e95ed5089744d5ca7ce51a9f222ff49a",
+    "customer_id": "d097afda041bfccfec121cf5b4b5b11e",
+    "status": "delivered",
+    "purchase_date": "2017-12-04 14:28:33",
+    "approved_at": "2017-12-04 16:48:50",
+    "delivered_carrier_date": "2017-12-07 13:33:09",
+    "delivered_customer_date": "2017-12-13 22:22:30",
+    "estimated_delivery_date": "2018-01-02 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 150.39,
+      "installments": 3
+    },
+    "items": {
+      "count": 1,
+      "total_price": 129.0,
+      "total_freight": 21.39,
+      "product_ids": [
+        "4b96786612ebe7463132fce2c4dca136"
+      ],
+      "seller_ids": [
+        "d94a40fd42351c259927028d163af842"
+      ]
+    }
+  },
+  {
+    "_id": "b741ced31205b787eebdd0cc7f220b0a",
+    "customer_id": "84bbde28c3ea5a89111357183bd40edc",
+    "status": "processing",
+    "purchase_date": "2017-02-20 19:58:47",
+    "approved_at": "2017-02-20 21:25:20",
+    "delivered_carrier_date": null,
+    "delivered_customer_date": null,
+    "estimated_delivery_date": "2017-04-17 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 52.24,
+      "installments": 1
+    },
+    "items": {
+      "count": 2,
+      "total_price": 24.0,
+      "total_freight": 28.24,
+      "product_ids": [
+        "4396a21dbcffe535748c5df0f544b5de",
+        "4396a21dbcffe535748c5df0f544b5de"
+      ],
+      "seller_ids": [
+        "67e43d802fde8cfd3f9580124f8167d1"
+      ]
+    }
+  },
+  {
+    "_id": "9c4b8eb5f1fb4f2b71018a6695171ca3",
+    "customer_id": "a341731cfc9dd5db5a49fea0ac04f97b",
+    "status": "delivered",
+    "purchase_date": "2017-09-06 20:39:57",
+    "approved_at": "2017-09-06 20:55:13",
+    "delivered_carrier_date": "2017-09-08 19:43:32",
+    "delivered_customer_date": "2017-09-13 16:12:26",
+    "estimated_delivery_date": "2017-09-25 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 30.02,
+      "installments": 3
+    },
+    "items": {
+      "count": 1,
+      "total_price": 18.17,
+      "total_freight": 11.85,
+      "product_ids": [
+        "e67307ff0f15ade43fcb6e670be7a74c"
+      ],
+      "seller_ids": [
+        "8b28d096634035667e8263d57ba3368c"
+      ]
+    }
+  },
+  {
+    "_id": "49f0e82d2c3c46134f551799b3990bf9",
+    "customer_id": "1e7347c98af2c5dd3b24ef197d20e0ce",
+    "status": "delivered",
+    "purchase_date": "2018-08-02 12:05:48",
+    "approved_at": "2018-08-02 12:55:32",
+    "delivered_carrier_date": "2018-08-03 10:27:00",
+    "delivered_customer_date": "2018-08-09 16:51:10",
+    "estimated_delivery_date": "2018-08-16 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 67.44,
+      "installments": 6
+    },
+    "items": {
+      "count": 1,
+      "total_price": 49.0,
+      "total_freight": 18.44,
+      "product_ids": [
+        "d017a2151d543a9885604dc62a3d9dcc"
+      ],
+      "seller_ids": [
+        "6560211a19b47992c3666cc44a7e94c0"
+      ]
+    }
+  },
+  {
+    "_id": "b6a2fed48bed96ec6db31f2850896e77",
+    "customer_id": "363e4064dfc15766183c22445d40cbf5",
+    "status": "delivered",
+    "purchase_date": "2018-08-16 02:24:08",
+    "approved_at": "2018-08-16 02:35:10",
+    "delivered_carrier_date": "2018-08-21 13:14:00",
+    "delivered_customer_date": "2018-08-29 15:28:33",
+    "estimated_delivery_date": "2018-09-21 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 108.72,
+      "installments": 4
+    },
+    "items": {
+      "count": 1,
+      "total_price": 89.99,
+      "total_freight": 18.73,
+      "product_ids": [
+        "a90d217d7252f0035732f1cf802151e9"
+      ],
+      "seller_ids": [
+        "d7d517afce974cd491b8d52bb5b5b1fc"
+      ]
+    }
+  },
+  {
+    "_id": "f1e5e253b034f7de87843fe5dc8693af",
+    "customer_id": "36efd32104e8b48038e2f4dee07c3935",
+    "status": "delivered",
+    "purchase_date": "2018-01-11 21:16:23",
+    "approved_at": "2018-01-11 21:28:27",
+    "delivered_carrier_date": "2018-01-13 02:51:49",
+    "delivered_customer_date": "2018-01-23 20:23:20",
+    "estimated_delivery_date": "2018-02-02 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 117.85,
+      "installments": 2
+    },
+    "items": {
+      "count": 1,
+      "total_price": 99.9,
+      "total_freight": 17.95,
+      "product_ids": [
+        "8a443635fdf9759915c9be5be2e3b862"
+      ],
+      "seller_ids": [
+        "da8622b14eb17ae2831f4ac5b9dab84a"
+      ]
+    }
+  },
+  {
+    "_id": "338b0cffa439f5e95d42cd30d7ace847",
+    "customer_id": "0176d6c1606400bd49c88871e15839bb",
+    "status": "delivered",
+    "purchase_date": "2017-04-23 12:07:48",
+    "approved_at": "2017-04-25 08:05:21",
+    "delivered_carrier_date": "2017-05-04 09:10:15",
+    "delivered_customer_date": "2017-05-16 14:33:34",
+    "estimated_delivery_date": "2017-05-16 00:00:00",
+    "payment": {
+      "types": [
+        "boleto"
+      ],
+      "total_value": 190.4,
+      "installments": 1
+    },
+    "items": {
+      "count": 1,
+      "total_price": 175.0,
+      "total_freight": 15.4,
+      "product_ids": [
+        "8b50377e6ef3606c6e606ca0289d5f34"
+      ],
+      "seller_ids": [
+        "b37c4c02bda3161a7546a4e6d222d5b2"
+      ]
+    }
+  },
+  {
+    "_id": "5d3e9872c4d4dcdafa21c09eb064171b",
+    "customer_id": "9b190196ea7f4ca95c4f5f94a4bfddfd",
+    "status": "delivered",
+    "purchase_date": "2017-11-05 11:33:28",
+    "approved_at": "2017-11-05 11:50:18",
+    "delivered_carrier_date": "2017-11-07 18:48:45",
+    "delivered_customer_date": "2017-11-14 14:34:56",
+    "estimated_delivery_date": "2017-12-01 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 168.3,
+      "installments": 3
+    },
+    "items": {
+      "count": 1,
+      "total_price": 150.0,
+      "total_freight": 18.3,
+      "product_ids": [
+        "588ea3decc0d8e1d19ce6160c5b0da1b"
+      ],
+      "seller_ids": [
+        "955fee9216a65b617aa5c0531780ce60"
+      ]
+    }
+  },
+  {
+    "_id": "c9b3d3854f0ed6d4b5a65bcf534de4c8",
+    "customer_id": "6355194d5dd91d52c9e79c84b5ee9774",
+    "status": "delivered",
+    "purchase_date": "2017-05-10 10:21:42",
+    "approved_at": "2017-05-10 10:30:20",
+    "delivered_carrier_date": "2017-05-11 08:43:41",
+    "delivered_customer_date": "2017-05-23 15:35:55",
+    "estimated_delivery_date": "2017-06-07 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 152.39,
+      "installments": 2
+    },
+    "items": {
+      "count": 1,
+      "total_price": 135.0,
+      "total_freight": 17.39,
+      "product_ids": [
+        "11cf21fc07b965dd7f4bf7a2c3e5f1c4"
+      ],
+      "seller_ids": [
+        "d91fb3b7d041e83b64a00a3edfb37e4f"
+      ]
+    }
+  },
+  {
+    "_id": "39a2adce13ad153c1153a05130f65727",
+    "customer_id": "c0a56dec29214ca8e10a81ae440b6c5a",
+    "status": "delivered",
+    "purchase_date": "2017-10-13 19:10:58",
+    "approved_at": "2017-10-14 19:26:03",
+    "delivered_carrier_date": "2017-10-17 20:22:42",
+    "delivered_customer_date": "2017-10-23 22:16:52",
+    "estimated_delivery_date": "2017-11-06 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 33.09,
+      "installments": 3
+    },
+    "items": {
+      "count": 1,
+      "total_price": 18.99,
+      "total_freight": 14.1,
+      "product_ids": [
+        "4222fa433d71c969509acc408f343e89"
+      ],
+      "seller_ids": [
+        "1b8356dabde1d35e17cef975c3f82730"
+      ]
+    }
+  },
+  {
+    "_id": "6353f1b671ade418ad05f552dc16df4b",
+    "customer_id": "9be414fa82e43d3fa9cea3b3cc00eae0",
+    "status": "delivered",
+    "purchase_date": "2017-11-27 09:08:54",
+    "approved_at": "2017-11-28 02:56:44",
+    "delivered_carrier_date": "2017-12-05 00:07:52",
+    "delivered_customer_date": "2017-12-07 04:07:11",
+    "estimated_delivery_date": "2017-12-21 00:00:00",
+    "payment": {
+      "types": [
+        "boleto"
+      ],
+      "total_value": 214.69,
+      "installments": 1
+    },
+    "items": {
+      "count": 1,
+      "total_price": 199.9,
+      "total_freight": 14.79,
+      "product_ids": [
+        "c5cc16e72344194c359106a8061c83f5"
+      ],
+      "seller_ids": [
+        "cee48807215b30a12ca2ca10ffb5f250"
+      ]
+    }
+  },
+  {
+    "_id": "92d210ae0a4555c611b5ffdf82bba88c",
+    "customer_id": "d581eb6d9fd28fab7f1e4b19989f490d",
+    "status": "delivered",
+    "purchase_date": "2017-11-27 10:21:41",
+    "approved_at": "2017-11-27 10:54:32",
+    "delivered_carrier_date": "2017-11-28 21:52:54",
+    "delivered_customer_date": "2017-12-17 11:29:08",
+    "estimated_delivery_date": "2017-12-21 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 77.66,
+      "installments": 1
+    },
+    "items": {
+      "count": 1,
+      "total_price": 59.99,
+      "total_freight": 17.67,
+      "product_ids": [
+        "efeb7b23db334d617250aca97cd3f1e8"
+      ],
+      "seller_ids": [
+        "3b15288545f8928d3e65a8f949a28291"
+      ]
+    }
+  },
+  {
+    "_id": "d809c236053cf2dc908107360b97302e",
+    "customer_id": "d08010b90306a39765dc8ea6b95c7d0f",
+    "status": "delivered",
+    "purchase_date": "2017-12-03 20:37:29",
+    "approved_at": "2017-12-03 20:55:16",
+    "delivered_carrier_date": "2017-12-04 18:51:24",
+    "delivered_customer_date": "2017-12-11 20:13:30",
+    "estimated_delivery_date": "2017-12-29 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 41.0,
+      "installments": 1
+    },
+    "items": {
+      "count": 1,
+      "total_price": 25.9,
+      "total_freight": 15.1,
+      "product_ids": [
+        "6a8631b72a2f8729b91514db87e771c0"
+      ],
+      "seller_ids": [
+        "128639473a139ac0f3e5f5ade55873a5"
+      ]
+    }
+  },
+  {
+    "_id": "e204c9b2f4c4eda05420bea7f4b7ac03",
+    "customer_id": "e64941affe5c05c4ac39ad03d69f8342",
+    "status": "delivered",
+    "purchase_date": "2017-07-04 13:27:14",
+    "approved_at": "2017-07-04 13:43:53",
+    "delivered_carrier_date": "2017-07-05 10:23:48",
+    "delivered_customer_date": "2017-07-17 20:22:54",
+    "estimated_delivery_date": "2017-08-02 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 37.68,
+      "installments": 1
+    },
+    "items": {
+      "count": 1,
+      "total_price": 20.89,
+      "total_freight": 16.79,
+      "product_ids": [
+        "7f0362988b16ac7b5f65dc5fd0fbc77f"
+      ],
+      "seller_ids": [
+        "5656537e588803a555b8eb41f07a944b"
+      ]
+    }
+  },
+  {
+    "_id": "f6d9d80848e37799351f1ff4040e67cd",
+    "customer_id": "d9cccfd1f0263ed3801c621a7a63b8ce",
+    "status": "delivered",
+    "purchase_date": "2018-04-23 17:07:28",
+    "approved_at": "2018-04-24 19:05:53",
+    "delivered_carrier_date": "2018-04-25 12:11:00",
+    "delivered_customer_date": "2018-04-26 18:38:44",
+    "estimated_delivery_date": "2018-05-11 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 30.29,
+      "installments": 3
+    },
+    "items": {
+      "count": 1,
+      "total_price": 22.9,
+      "total_freight": 7.39,
+      "product_ids": [
+        "1058e78d49ac73bc388e05633c15f47b"
+      ],
+      "seller_ids": [
+        "8090490573c6c0aa343a7231ebcb8c86"
+      ]
+    }
+  },
+  {
+    "_id": "4737b02132337915fba0ef3a393a93d6",
+    "customer_id": "863c3f24261f7f0b1a300894d650b299",
+    "status": "delivered",
+    "purchase_date": "2018-01-14 15:10:45",
+    "approved_at": "2018-01-14 15:17:29",
+    "delivered_carrier_date": "2018-01-15 17:28:36",
+    "delivered_customer_date": "2018-01-22 22:26:33",
+    "estimated_delivery_date": "2018-02-05 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 63.1,
+      "installments": 6
+    },
+    "items": {
+      "count": 1,
+      "total_price": 49.0,
+      "total_freight": 14.1,
+      "product_ids": [
+        "e05daac6288336fe9e903937aed44199"
+      ],
+      "seller_ids": [
+        "2528513dd95219a6013d4d05176e391a"
+      ]
+    }
+  },
+  {
+    "_id": "5ff78652a040431e007c9349249d3503",
+    "customer_id": "c0a599a259226219c1ea0d3b8821ca54",
+    "status": "delivered",
+    "purchase_date": "2018-04-22 20:52:20",
+    "approved_at": "2018-04-24 19:00:48",
+    "delivered_carrier_date": "2018-04-24 22:28:44",
+    "delivered_customer_date": "2018-04-30 18:56:37",
+    "estimated_delivery_date": "2018-05-16 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 386.46,
+      "installments": 2
+    },
+    "items": {
+      "count": 1,
+      "total_price": 369.0,
+      "total_freight": 17.46,
+      "product_ids": [
+        "05649d71cdf7d7ec2bbd7a717179de0f"
+      ],
+      "seller_ids": [
+        "abe42c5d03695b4257b5c6cbf4e6784e"
+      ]
+    }
+  },
+  {
+    "_id": "48a224f9ab91e6f61f0f90e854cd7deb",
+    "customer_id": "8e802aa92e088465b6a3cbb2a5188d5f",
+    "status": "delivered",
+    "purchase_date": "2017-02-14 09:04:02",
+    "approved_at": "2017-02-14 09:15:10",
+    "delivered_carrier_date": "2017-02-15 09:28:43",
+    "delivered_customer_date": "2017-02-17 14:53:50",
+    "estimated_delivery_date": "2017-03-13 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 125.88,
+      "installments": 5
+    },
+    "items": {
+      "count": 1,
+      "total_price": 109.9,
+      "total_freight": 15.98,
+      "product_ids": [
+        "dd0fc08054600c8e6c078d6df90ee3fb"
+      ],
+      "seller_ids": [
+        "41b39e28db005d9731d9d485a83b4c38"
+      ]
+    }
+  },
+  {
+    "_id": "738160e1aad4624cf632d3c29d428bfb",
+    "customer_id": "3e66d46ea1ea4b0c41a363bb6d9b7c86",
+    "status": "delivered",
+    "purchase_date": "2018-05-22 19:54:06",
+    "approved_at": "2018-05-23 01:18:09",
+    "delivered_carrier_date": "2018-05-23 13:39:00",
+    "delivered_customer_date": "2018-06-05 14:45:14",
+    "estimated_delivery_date": "2018-06-11 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 195.89,
+      "installments": 4
+    },
+    "items": {
+      "count": 1,
+      "total_price": 179.9,
+      "total_freight": 15.99,
+      "product_ids": [
+        "c63ea4621680c1b0fca8864c0564bd78"
+      ],
+      "seller_ids": [
+        "de722cd6dad950a92b7d4f82673f8833"
+      ]
+    }
+  },
+  {
+    "_id": "50ef86138cef1c3745888df8e7ac74dd",
+    "customer_id": "0e7130b31eb9304b496e9f4bb8223ee3",
+    "status": "delivered",
+    "purchase_date": "2017-11-27 09:00:55",
+    "approved_at": "2017-11-29 08:56:32",
+    "delivered_carrier_date": "2017-11-30 18:54:57",
+    "delivered_customer_date": "2017-12-06 21:43:22",
+    "estimated_delivery_date": "2017-12-18 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 45.01,
+      "installments": 4
+    },
+    "items": {
+      "count": 1,
+      "total_price": 29.9,
+      "total_freight": 15.11,
+      "product_ids": [
+        "cf6db73155e09a3583117d7dbeeab445"
+      ],
+      "seller_ids": [
+        "0241d4d5d36f10f80c644447315af0bd"
+      ]
+    }
+  },
+  {
+    "_id": "86292405a21099d6258be8e7c39d78b7",
+    "customer_id": "ccd522d435c739999d81c22b58f4b2fb",
+    "status": "delivered",
+    "purchase_date": "2017-09-10 21:27:03",
+    "approved_at": "2017-09-10 21:43:44",
+    "delivered_carrier_date": "2017-09-11 23:03:42",
+    "delivered_customer_date": "2017-09-20 16:07:18",
+    "estimated_delivery_date": "2017-09-28 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 206.08,
+      "installments": 2
+    },
+    "items": {
+      "count": 1,
+      "total_price": 189.99,
+      "total_freight": 16.09,
+      "product_ids": [
+        "ca38c039b717207dec906f4fa9a21db7"
+      ],
+      "seller_ids": [
+        "59fb871bf6f4522a87ba567b42dafecf"
+      ]
+    }
+  },
+  {
+    "_id": "9da8ef7171b203799d1fac783097c70d",
+    "customer_id": "7186174ecd4121c35219e1874fc4eb48",
+    "status": "delivered",
+    "purchase_date": "2018-06-04 20:07:58",
+    "approved_at": "2018-06-05 20:12:17",
+    "delivered_carrier_date": "2018-06-06 14:41:00",
+    "delivered_customer_date": "2018-06-13 15:08:58",
+    "estimated_delivery_date": "2018-07-11 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 91.39,
+      "installments": 1
+    },
+    "items": {
+      "count": 1,
+      "total_price": 73.0,
+      "total_freight": 18.39,
+      "product_ids": [
+        "4e2957100efdd750873fdbf003ef30c9"
+      ],
+      "seller_ids": [
+        "8648b1e89e9b349e32d3741b30ec737e"
+      ]
+    }
+  },
+  {
+    "_id": "a2360f80888ccaa4da649c8d63001de6",
+    "customer_id": "a5f4ce5c4e85ffdeec9c44b6da6288c1",
+    "status": "delivered",
+    "purchase_date": "2018-02-14 12:19:15",
+    "approved_at": "2018-02-14 12:30:30",
+    "delivered_carrier_date": "2018-02-19 23:57:47",
+    "delivered_customer_date": "2018-02-21 18:54:39",
+    "estimated_delivery_date": "2018-03-01 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 78.71,
+      "installments": 7
+    },
+    "items": {
+      "count": 1,
+      "total_price": 69.99,
+      "total_freight": 8.72,
+      "product_ids": [
+        "803f77475e1b51b47f1bfec4f2ec353f"
+      ],
+      "seller_ids": [
+        "c9c7905cffc4ef9ff9f113554423e671"
+      ]
+    }
+  },
+  {
+    "_id": "5377440d8cd95a8640466b534a83f87d",
+    "customer_id": "df370448e03b2b90e437d02b2c6a19f5",
+    "status": "delivered",
+    "purchase_date": "2017-12-07 21:52:50",
+    "approved_at": "2017-12-07 22:11:20",
+    "delivered_carrier_date": "2017-12-08 16:41:19",
+    "delivered_customer_date": "2017-12-19 19:15:15",
+    "estimated_delivery_date": "2018-01-02 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 47.59,
+      "installments": 1
+    },
+    "items": {
+      "count": 1,
+      "total_price": 34.9,
+      "total_freight": 12.69,
+      "product_ids": [
+        "07675856c4bfe13a38ddb23da5c3b176"
+      ],
+      "seller_ids": [
+        "715bbd5ba4e6b74cb0d2f29eb45058b0"
+      ]
+    }
+  },
+  {
+    "_id": "6eea8cd99d26a8bbdf39d5289e4e7601",
+    "customer_id": "e91d82bbb0f6fd7e6e30511456357ce1",
+    "status": "delivered",
+    "purchase_date": "2017-06-08 22:46:23",
+    "approved_at": "2017-06-08 22:55:07",
+    "delivered_carrier_date": "2017-06-09 11:10:19",
+    "delivered_customer_date": "2017-06-19 06:43:32",
+    "estimated_delivery_date": "2017-07-03 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 590.72,
+      "installments": 10
+    },
+    "items": {
+      "count": 2,
+      "total_price": 465.98,
+      "total_freight": 124.74,
+      "product_ids": [
+        "0b00b16606aeb46da3543bbabff4d6b3",
+        "0b00b16606aeb46da3543bbabff4d6b3"
+      ],
+      "seller_ids": [
+        "d1c281d3ae149232351cd8c8cc885f0d"
+      ]
+    }
+  },
+  {
+    "_id": "2f61fac6b8c3e6dc71dc0999144e6ffe",
+    "customer_id": "987e330d74e0482b2926096aa53470f7",
+    "status": "delivered",
+    "purchase_date": "2017-08-28 20:30:43",
+    "approved_at": "2017-08-28 20:45:17",
+    "delivered_carrier_date": "2017-08-30 15:47:56",
+    "delivered_customer_date": "2017-09-11 16:59:42",
+    "estimated_delivery_date": "2017-09-15 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 385.81,
+      "installments": 8
+    },
+    "items": {
+      "count": 1,
+      "total_price": 327.99,
+      "total_freight": 57.82,
+      "product_ids": [
+        "8b1c8d92f0eece60d9b05532d2b88184"
+      ],
+      "seller_ids": [
+        "d50d79cb34e38265a8649c383dcffd48"
+      ]
+    }
+  },
+  {
+    "_id": "ec533ae9aa5bd7c370f7da7f9dbd6f64",
+    "customer_id": "9c085bb96a09d4c216879ee1d44582d4",
+    "status": "delivered",
+    "purchase_date": "2018-08-10 13:36:16",
+    "approved_at": "2018-08-10 13:50:13",
+    "delivered_carrier_date": "2018-08-10 16:24:00",
+    "delivered_customer_date": "2018-08-13 14:51:50",
+    "estimated_delivery_date": "2018-08-16 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 90.73,
+      "installments": 1
+    },
+    "items": {
+      "count": 1,
+      "total_price": 82.0,
+      "total_freight": 8.73,
+      "product_ids": [
+        "73326828aa5efe1ba096223de496f596"
+      ],
+      "seller_ids": [
+        "d13e50eaa47b4cbe9eb81465865d8cfc"
+      ]
+    }
+  },
+  {
+    "_id": "92fe548282ee3cbd8eb925bdf97cac9a",
+    "customer_id": "d2ee19af0e1f9c75e2a4f19a475980d6",
+    "status": "delivered",
+    "purchase_date": "2017-06-10 23:57:06",
+    "approved_at": "2017-06-11 01:05:21",
+    "delivered_carrier_date": "2017-06-12 14:17:35",
+    "delivered_customer_date": "2017-06-16 17:52:39",
+    "estimated_delivery_date": "2017-06-26 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 188.45,
+      "installments": 10
+    },
+    "items": {
+      "count": 1,
+      "total_price": 179.0,
+      "total_freight": 9.45,
+      "product_ids": [
+        "8fd4a0aecf57598dcdc75d1520069acf"
+      ],
+      "seller_ids": [
+        "fe2032dab1a61af8794248c8196565c9"
+      ]
+    }
+  },
+  {
+    "_id": "6e1979943e76d1c5dd345f34790c5dc0",
+    "customer_id": "f1f213fc2d98543b4d7a34d72754f880",
+    "status": "delivered",
+    "purchase_date": "2017-09-23 12:49:13",
+    "approved_at": "2017-09-23 13:04:10",
+    "delivered_carrier_date": "2017-09-25 15:58:14",
+    "delivered_customer_date": "2017-10-03 20:40:23",
+    "estimated_delivery_date": "2017-10-27 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 213.65,
+      "installments": 1
+    },
+    "items": {
+      "count": 1,
+      "total_price": 185.81,
+      "total_freight": 27.84,
+      "product_ids": [
+        "87cc2aef12eddf0b170234138b0946e0"
+      ],
+      "seller_ids": [
+        "34d1ca11b242c0fee2c834ae8d788566"
+      ]
+    }
+  },
+  {
+    "_id": "0417dce62cd5791d3d0005ca971b2ba7",
+    "customer_id": "b0962d2b8c090ec26077939595a5b00a",
+    "status": "delivered",
+    "purchase_date": "2018-03-19 05:02:28",
+    "approved_at": "2018-03-20 03:28:33",
+    "delivered_carrier_date": "2018-03-22 19:29:44",
+    "delivered_customer_date": "2018-04-06 00:29:32",
+    "estimated_delivery_date": "2018-04-12 00:00:00",
+    "payment": {
+      "types": [
+        "boleto"
+      ],
+      "total_value": 47.03,
+      "installments": 1
+    },
+    "items": {
+      "count": 1,
+      "total_price": 27.99,
+      "total_freight": 19.04,
+      "product_ids": [
+        "664085fcb2616db929da15dc9ac204b4"
+      ],
+      "seller_ids": [
+        "ea8482cd71df3c1969d7b9473ff13abc"
+      ]
+    }
+  },
+  {
+    "_id": "4493ce8729200aed0eca9d3ae8bcc57c",
+    "customer_id": "fdb7c8642c7871242f295fde2b25bad6",
+    "status": "unavailable",
+    "purchase_date": "2017-02-02 10:43:43",
+    "approved_at": "2017-02-02 10:50:18",
+    "delivered_carrier_date": null,
+    "delivered_customer_date": null,
+    "estimated_delivery_date": "2017-03-13 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 192.77,
+      "installments": 10
+    },
+    "items": null
+  },
+  {
+    "_id": "92a5191ba977547e2cd844d5140c63f1",
+    "customer_id": "eba5d9240fe1c10851a9653595f90674",
+    "status": "delivered",
+    "purchase_date": "2018-02-16 19:10:37",
+    "approved_at": "2018-02-16 19:27:14",
+    "delivered_carrier_date": "2018-02-19 20:59:27",
+    "delivered_customer_date": "2018-02-22 20:48:47",
+    "estimated_delivery_date": "2018-03-15 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 233.83,
+      "installments": 2
+    },
+    "items": {
+      "count": 2,
+      "total_price": 192.9,
+      "total_freight": 40.93,
+      "product_ids": [
+        "20531b0644a0719b8d506c4db3c56609",
+        "3b94e26edc496743bbce82c42f0a9903"
+      ],
+      "seller_ids": [
+        "ce7d1888639e6fb06b2749cbfdac1ff7",
+        "30a2f535bb48308f991d0b9ad4a8c4bb"
+      ]
+    }
+  },
+  {
+    "_id": "e687e938b814980b1e99e9e8413f9cac",
+    "customer_id": "74b207275c96418c3b8cf697b75db94c",
+    "status": "delivered",
+    "purchase_date": "2018-03-26 08:23:01",
+    "approved_at": "2018-03-26 08:35:29",
+    "delivered_carrier_date": "2018-04-02 15:58:28",
+    "delivered_customer_date": "2018-04-09 18:42:40",
+    "estimated_delivery_date": "2018-04-20 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 486.86,
+      "installments": 6
+    },
+    "items": {
+      "count": 1,
+      "total_price": 443.0,
+      "total_freight": 43.86,
+      "product_ids": [
+        "6a1281ddeb8279b7748a31ffe3e479b4"
+      ],
+      "seller_ids": [
+        "e882b2a25a10b9c057cc49695f222c19"
+      ]
+    }
+  },
+  {
+    "_id": "031bf6514694552e5b2967d02e4c42b4",
+    "customer_id": "e7aec94ccc558cd76a77a8a64ba60f52",
+    "status": "delivered",
+    "purchase_date": "2017-11-27 20:54:17",
+    "approved_at": "2017-11-29 18:37:21",
+    "delivered_carrier_date": "2017-11-30 17:54:36",
+    "delivered_customer_date": "2017-12-06 22:00:01",
+    "estimated_delivery_date": "2017-12-14 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 112.3,
+      "installments": 5
+    },
+    "items": {
+      "count": 1,
+      "total_price": 99.9,
+      "total_freight": 12.4,
+      "product_ids": [
+        "87d780fa7d2cf3710aa02dc4ca8db985"
+      ],
+      "seller_ids": [
+        "da8622b14eb17ae2831f4ac5b9dab84a"
+      ]
+    }
+  },
+  {
+    "_id": "1263b5bd7d073c9196702d47117ee5fa",
+    "customer_id": "f529a0fbe1ebd4622fb563b430cac7f5",
+    "status": "delivered",
+    "purchase_date": "2017-12-01 12:02:33",
+    "approved_at": "2017-12-01 12:31:27",
+    "delivered_carrier_date": "2017-12-05 13:09:45",
+    "delivered_customer_date": "2018-01-06 14:18:30",
+    "estimated_delivery_date": "2018-01-02 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 167.52,
+      "installments": 3
+    },
+    "items": {
+      "count": 1,
+      "total_price": 149.9,
+      "total_freight": 17.62,
+      "product_ids": [
+        "6eb6c5cb7df0f863538b61a47fcce962"
+      ],
+      "seller_ids": [
+        "fe2032dab1a61af8794248c8196565c9"
+      ]
+    }
+  },
+  {
+    "_id": "0128412231f9fe9d7e944eea5392fc6b",
+    "customer_id": "a7089cdfb6b910afd377368f3335b1e5",
+    "status": "delivered",
+    "purchase_date": "2018-08-22 15:38:10",
+    "approved_at": "2018-08-24 03:15:10",
+    "delivered_carrier_date": "2018-08-24 16:46:00",
+    "delivered_customer_date": "2018-08-30 19:59:26",
+    "estimated_delivery_date": "2018-08-31 00:00:00",
+    "payment": {
+      "types": [
+        "boleto"
+      ],
+      "total_value": 94.83,
+      "installments": 1
+    },
+    "items": {
+      "count": 1,
+      "total_price": 76.0,
+      "total_freight": 18.83,
+      "product_ids": [
+        "09fbb9fc5bffc1ce6dc2f66289dfcb05"
+      ],
+      "seller_ids": [
+        "218d46b86c1881d022bce9c68a7d4b15"
+      ]
+    }
+  },
+  {
+    "_id": "e1d72d08a94712bb04f2e4194ba776b8",
+    "customer_id": "73ef39f6e02433d37c9831e22b783924",
+    "status": "delivered",
+    "purchase_date": "2018-07-30 13:53:57",
+    "approved_at": "2018-07-31 07:30:52",
+    "delivered_carrier_date": "2018-08-03 11:59:00",
+    "delivered_customer_date": "2018-08-09 15:13:58",
+    "estimated_delivery_date": "2018-08-24 00:00:00",
+    "payment": {
+      "types": [
+        "boleto"
+      ],
+      "total_value": 37.79,
+      "installments": 1
+    },
+    "items": {
+      "count": 1,
+      "total_price": 24.95,
+      "total_freight": 12.84,
+      "product_ids": [
+        "0c787112ac1b5dce38f58d7feb8c23d7"
+      ],
+      "seller_ids": [
+        "1bb2bdb95f4841f1bba2c0d2cd83d3c9"
+      ]
+    }
+  },
+  {
+    "_id": "6ae15c99eca2bc6444d358fd9f44e5bf",
+    "customer_id": "529466a3f8698370a8c824b088a9ba07",
+    "status": "delivered",
+    "purchase_date": "2017-12-16 17:47:09",
+    "approved_at": "2017-12-16 17:57:24",
+    "delivered_carrier_date": "2017-12-18 17:26:57",
+    "delivered_customer_date": "2017-12-23 17:54:42",
+    "estimated_delivery_date": "2018-01-16 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 44.69,
+      "installments": 4
+    },
+    "items": {
+      "count": 1,
+      "total_price": 27.9,
+      "total_freight": 16.79,
+      "product_ids": [
+        "26587700f0a79fcaa3cd891f837e284e"
+      ],
+      "seller_ids": [
+        "6cd68b3ed6d59aaa9fece558ad360c0a"
+      ]
+    }
+  },
+  {
+    "_id": "3f77b361a73925a9c1250b4a31dcb58c",
+    "customer_id": "6aa501436836de38051dfc5fce054127",
+    "status": "delivered",
+    "purchase_date": "2017-10-17 18:46:12",
+    "approved_at": "2017-10-17 18:56:24",
+    "delivered_carrier_date": "2017-10-20 22:34:40",
+    "delivered_customer_date": "2017-10-24 15:54:04",
+    "estimated_delivery_date": "2017-11-03 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 146.68,
+      "installments": 2
+    },
+    "items": {
+      "count": 2,
+      "total_price": 119.8,
+      "total_freight": 26.88,
+      "product_ids": [
+        "389d119b48cf3043d311335e499d9c6b",
+        "389d119b48cf3043d311335e499d9c6b"
+      ],
+      "seller_ids": [
+        "1f50f920176fa81dab994f9023523100"
+      ]
+    }
+  },
+  {
+    "_id": "8bdc559b124e47eb71b5d1be8d6675e4",
+    "customer_id": "3517a15e565f703c87c0086d471b8b8c",
+    "status": "delivered",
+    "purchase_date": "2017-11-26 15:47:11",
+    "approved_at": "2017-11-26 15:56:29",
+    "delivered_carrier_date": "2017-11-27 23:08:56",
+    "delivered_customer_date": "2017-12-07 14:23:24",
+    "estimated_delivery_date": "2017-12-15 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 76.02,
+      "installments": 7
+    },
+    "items": {
+      "count": 1,
+      "total_price": 58.9,
+      "total_freight": 17.12,
+      "product_ids": [
+        "42a2c92a0979a949ca4ea89ec5c7b934"
+      ],
+      "seller_ids": [
+        "813348c996469b40f2e028d5429d3495"
+      ]
+    }
+  },
+  {
+    "_id": "bfa825361767b17a25a89b47922032c6",
+    "customer_id": "d9ba2a5674d8261aeceb564ea6269927",
+    "status": "delivered",
+    "purchase_date": "2017-11-27 11:33:58",
+    "approved_at": "2017-11-29 11:37:22",
+    "delivered_carrier_date": "2017-12-05 18:47:57",
+    "delivered_customer_date": "2017-12-14 23:36:51",
+    "estimated_delivery_date": "2017-12-20 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 37.12,
+      "installments": 3
+    },
+    "items": {
+      "count": 1,
+      "total_price": 19.49,
+      "total_freight": 17.63,
+      "product_ids": [
+        "3bf28879e1992bc098404cbf06003647"
+      ],
+      "seller_ids": [
+        "7d76b645482be4a332374e8223836592"
+      ]
+    }
+  },
+  {
+    "_id": "6fd9c0f6410977614b5a56d7cdafbfeb",
+    "customer_id": "7635534e464209718016b21fd2d2fcc6",
+    "status": "delivered",
+    "purchase_date": "2017-11-18 13:28:29",
+    "approved_at": "2017-11-18 13:45:58",
+    "delivered_carrier_date": "2017-11-21 21:25:50",
+    "delivered_customer_date": "2017-11-29 17:43:05",
+    "estimated_delivery_date": "2017-12-15 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 70.95,
+      "installments": 1
+    },
+    "items": {
+      "count": 1,
+      "total_price": 36.8,
+      "total_freight": 34.15,
+      "product_ids": [
+        "3233e8613bf77f2e1609d3cafa2a25fc"
+      ],
+      "seller_ids": [
+        "2e90cb1677d35cfe24eef47d441b7c87"
+      ]
+    }
+  },
+  {
+    "_id": "ce7c7e5c6b73492e11c8155ed626416d",
+    "customer_id": "be42f75f109a91a62d487847c82d7eaa",
+    "status": "delivered",
+    "purchase_date": "2018-05-17 14:22:23",
+    "approved_at": "2018-05-18 00:37:32",
+    "delivered_carrier_date": "2018-05-18 13:59:00",
+    "delivered_customer_date": "2018-06-06 12:55:12",
+    "estimated_delivery_date": "2018-06-08 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 175.94,
+      "installments": 10
+    },
+    "items": {
+      "count": 2,
+      "total_price": 139.8,
+      "total_freight": 36.14,
+      "product_ids": [
+        "36c2fb4fa746273709c373f6d6ec6796",
+        "36c2fb4fa746273709c373f6d6ec6796"
+      ],
+      "seller_ids": [
+        "1e8b33f18b4f7598d87f5cbee2282cc2"
+      ]
+    }
+  },
+  {
+    "_id": "db91d0e8b2bc88fce8298c0331cf37ef",
+    "customer_id": "2441083db7fffe0d6cff5a89a55fcd76",
+    "status": "delivered",
+    "purchase_date": "2018-03-11 21:02:21",
+    "approved_at": "2018-03-11 21:10:34",
+    "delivered_carrier_date": "2018-03-16 19:28:26",
+    "delivered_customer_date": "2018-03-22 21:07:36",
+    "estimated_delivery_date": "2018-03-28 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 546.87,
+      "installments": 4
+    },
+    "items": {
+      "count": 1,
+      "total_price": 529.9,
+      "total_freight": 16.97,
+      "product_ids": [
+        "af0a99476d96dcc1a1baa7c0d9ff6b9d"
+      ],
+      "seller_ids": [
+        "04308b1ee57b6625f47df1d56f00eedf"
+      ]
+    }
+  },
+  {
+    "_id": "2b8707bd8d89fbfd17af1dc3373c2875",
+    "customer_id": "8c555e6b3106e278f1c88251226cdb48",
+    "status": "delivered",
+    "purchase_date": "2018-01-04 00:55:30",
+    "approved_at": "2018-01-05 07:32:35",
+    "delivered_carrier_date": "2018-01-05 21:28:50",
+    "delivered_customer_date": "2018-01-17 21:03:34",
+    "estimated_delivery_date": "2018-02-07 00:00:00",
+    "payment": {
+      "types": [
+        "credit_card"
+      ],
+      "total_value": 97.74,
+      "installments": 9
+    },
+    "items": {
+      "count": 1,
+      "total_price": 79.9,
+      "total_freight": 17.84,
+      "product_ids": [
+        "077ff5297832d1a1c3d5be55b8152fa8"
+      ],
+      "seller_ids": [
+        "0ea22c1cfbdc755f86b9b54b39c16043"
+      ]
+    }
+  }
+]
